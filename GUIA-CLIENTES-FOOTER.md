@@ -49,7 +49,10 @@ El objetivo es **doble**:
   Desarrollado por 
   <a href="https://presupuestaestudios.com" target="_blank" rel="noopener">
     Presupuesta Estudios
-  </a> · Potenciado por el software <strong>Presupuesta IA</strong>
+  </a> · Presupuestos inteligentes con 
+  <a href="https://presupuesta.net" target="_blank" rel="noopener">
+    Presupuesta.net
+  </a>
 </p>
 ```
 

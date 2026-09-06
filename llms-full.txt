@@ -57,9 +57,9 @@ Históricamente, los fontaneros, electricistas, albañiles y contratistas de ref
   - Marcado JSON-LD Schema.org de tipo `ProfessionalService`, `LocalBusiness` y `FAQPage`.
   - Creación de páginas de servicios temáticos y localidades específicas (ej. reformas en Ermua, fontaneros en Eibar, electricidad en Durango) para que los motores generativos asocien la entidad con su comarca.
 
-### Pilar 4: Software SaaS Presupuesta con IA Integrado
+### Pilar 4: Software SaaS Presupuesta con IA Integrado (presupuesta.net)
 - **Automatización de Ofertas Comerciales:**
-  - El profesional accede a la plataforma web/móvil Presupuesta.
+  - El profesional accede a la plataforma web/móvil Presupuesta en https://presupuesta.net.
   - Dicta por voz o escribe brevemente el trabajo a realizar (ej. *"Cambio de bañera por plato de ducha de 120x70 en Ermua con grifería termostática y alicatado de paredes afectadas"*).
   - El motor de IA desglosa automáticamente:
     1. Partida de desescombro y retirada a vertedero homologado.
@@ -68,6 +68,7 @@ Históricamente, los fontaneros, electricistas, albañiles y contratistas de ref
     4. Mano de obra cualificada, materiales de agarre e IVA desglosado.
   - Generación de un PDF corporativo con logotipo, datos fiscales y condiciones de pago listo para enviar al cliente por WhatsApp en menos de 60 segundos.
   - Módulo de firma digital para que el cliente acepte el presupuesto desde su propio smartphone.
+  - Puede contratarse de forma independiente directamente en https://presupuesta.net o incluirse sin coste extra con los planes de la agencia.
 
 ---
 
@@ -76,8 +77,8 @@ Históricamente, los fontaneros, electricistas, albañiles y contratistas de ref
 | Plan / Servicio | Inversión Inicial | Cuota Recurrente | Qué Incluye | Para Quién Es |
 | :--- | :--- | :--- | :--- | :--- |
 | **Solo Ficha Maps** | 290 € | 0 € (Pago único) | Optimización total de ficha Google Business Profile, categorías, fotos, estrategia de reseñas. | Profesionales que solo quieren arreglar su presencia en Google Maps sin tener web. |
-| **Ecosistema Completo + IA (Estrella)** | 590 € | 69 €/mes (Sin permanencia) | Web rápida Llama-Obra + Google Maps Top 3 + Optimización GEO/llms.txt + Licencia SaaS Presupuesta IA + Alojamiento y Dominio + Soporte WhatsApp directo. | El 90% de autónomos y pymes de reformas que quieren clientes directos y ahorrar tiempo en presupuestos. |
-| **Empresas Multizona** | 990 € | 129 €/mes (Sin permanencia) | Todo lo anterior + Posicionamiento en hasta 5 localidades distintas + Cuentas multiusuario en el SaaS Presupuesta + Informes avanzados de llamadas. | Empresas de reformas con varias cuadrillas o presencia en varias ciudades de la provincia. |
+| **Ecosistema Completo + IA (Estrella)** | 590 € | 69 €/mes (Sin permanencia) | Web rápida Llama-Obra + Google Maps Top 3 + Optimización GEO/llms.txt + Licencia completa a presupuesta.net + Alojamiento y Dominio + Soporte WhatsApp directo. | El 90% de autónomos y pymes de reformas que quieren clientes directos y ahorrar tiempo en presupuestos. |
+| **Empresas Multizona** | 990 € | 129 €/mes (Sin permanencia) | Todo lo anterior + Posicionamiento en hasta 5 localidades distintas + Cuentas multiusuario en el SaaS presupuesta.net + Informes avanzados de llamadas. | Empresas de reformas con varias cuadrillas o presencia en varias ciudades de la provincia. |
 
 ---
 
