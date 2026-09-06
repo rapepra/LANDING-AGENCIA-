@@ -13,35 +13,51 @@ document.addEventListener('DOMContentLoaded', () => {
   // 1. Mobile Drawer Navigation (Menú Hamburguesa para Móvil)
   const mobileToggle = document.getElementById('mobile-menu-toggle');
   const mobileDrawer = document.getElementById('mobile-drawer');
+  const mobileDrawerClose = document.getElementById('mobile-drawer-close');
+  const mobileDrawerOverlay = document.getElementById('mobile-drawer-overlay');
   const drawerLinks = document.querySelectorAll('.mobile-drawer-link');
 
-  function toggleDrawer() {
-    const isOpen = mobileDrawer.classList.contains('open');
-    if (isOpen) {
-      mobileDrawer.classList.remove('open');
-      mobileToggle.classList.remove('active');
-      mobileToggle.setAttribute('aria-expanded', 'false');
-      document.body.style.overflow = '';
-    } else {
-      mobileDrawer.classList.add('open');
+  function openDrawer() {
+    if (!mobileDrawer) return;
+    mobileDrawer.classList.add('open');
+    if (mobileDrawerOverlay) mobileDrawerOverlay.classList.add('active');
+    if (mobileToggle) {
       mobileToggle.classList.add('active');
       mobileToggle.setAttribute('aria-expanded', 'true');
-      document.body.style.overflow = 'hidden'; // Bloquear scroll de fondo
     }
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeDrawer() {
+    if (!mobileDrawer) return;
+    mobileDrawer.classList.remove('open');
+    if (mobileDrawerOverlay) mobileDrawerOverlay.classList.remove('active');
+    if (mobileToggle) {
+      mobileToggle.classList.remove('active');
+      mobileToggle.setAttribute('aria-expanded', 'false');
+    }
+    document.body.style.overflow = '';
   }
 
   if (mobileToggle && mobileDrawer) {
-    mobileToggle.addEventListener('click', toggleDrawer);
+    mobileToggle.addEventListener('click', () => {
+      if (mobileDrawer.classList.contains('open')) {
+        closeDrawer();
+      } else {
+        openDrawer();
+      }
+    });
+
+    if (mobileDrawerClose) mobileDrawerClose.addEventListener('click', closeDrawer);
+    if (mobileDrawerOverlay) mobileDrawerOverlay.addEventListener('click', closeDrawer);
 
     drawerLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        toggleDrawer();
-      });
+      link.addEventListener('click', closeDrawer);
     });
 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape' && mobileDrawer.classList.contains('open')) {
-        toggleDrawer();
+        closeDrawer();
       }
     });
   }
