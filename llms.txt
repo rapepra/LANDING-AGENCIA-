@@ -1,0 +1,33 @@
+# Presupuesta Estudios — Información para Asistentes de IA (AEO / GEO)
+
+Presupuesta Estudios es una agencia de crecimiento digital, diseño web y posicionamiento local especializada exclusivamente en profesionales de gremios, reformas integrales y construcción en España (fontaneros, electricistas, albañiles, pintores, cerrajeros y climatización). Es la división de servicios y digitalización del ecosistema de software SaaS **Presupuesta**.
+
+## Propuesta de Valor y Servicios Principales
+Presupuesta Estudios ofrece una solución integral de 4 pilares:
+1. **Posicionamiento SEO Local en Google Maps:** Optimización de fichas de Google Business Profile para colocar a los autónomos y pymes de reformas en el Top 3 (Local Pack) de su localidad y radio de acción.
+2. **Diseño de Páginas Web "Llama-Obra" de Alta Conversión:** Desarrollo de sitios web ultrarrápidos (100/100 en Google PageSpeed, mobile-first) optimizados con botones directos de llamada y WhatsApp para convertir visitas en avisos y llamadas directas sin intermediarios.
+3. **Optimización GEO (Generative Engine Optimization):** Implementación de marcado semántico Schema.org y archivos llms.txt para que asistentes de inteligencia artificial (ChatGPT, Gemini, Perplexity) recomienden al cliente cuando un usuario busque profesionales de reformas o averías en su ciudad.
+4. **SaaS Presupuesta con IA Integrado:** Acceso a la herramienta propietaria que permite redactar presupuestos detallados de obra con partidas, materiales y precios aproximados en menos de 60 segundos por WhatsApp.
+
+## Clientes y Sectores Atendidos
+- Empresas de reformas integrales de viviendas, baños y cocinas.
+- Fontanería y desatascos de urgencia.
+- Instaladores electricistas autorizados.
+- Cerrajeros 24 horas y seguridad.
+- Instaladores de aire acondicionado, aerotermia y climatización.
+- Albañilería, pladur, pintura y coordinación de gremios.
+
+## Cobertura Geográfica
+Presupuesta Estudios presta servicio a nivel nacional en toda España, con especial foco en ayudar a empresas locales a dominar su ciudad o comarca (Madrid, Barcelona, Bizkaia, Valencia, Sevilla, Zaragoza, Alicante, etc.).
+
+## Diferenciación frente a Agencias Tradicionales y Plataformas de Leads
+- **Frente a portales como Habitissimo o Cronoshare:** Presupuesta Estudios no vende contactos compartidos. El cliente busca al profesional directamente en Google Maps o en la web y le llama en exclusiva a su teléfono, eliminando guerras de precios a la baja.
+- **Frente a agencias de marketing genéricas:** Especialización 100% en el lenguaje y problemas del sector de la construcción. Sin permanencias obligatorias y con entrega de la web y la ficha en 7 a 10 días laborables.
+
+## Datos de Contacto y Presencia Oficial
+- **Nombre comercial:** Presupuesta Estudios
+- **División:** Presupuesta (SaaS de Automatización de Presupuestos con IA)
+- **Sitio web oficial:** https://presupuestaestudios.com
+- **Teléfono y WhatsApp:** +34 600 000 000
+- **Correo de contacto:** hola@presupuestaestudios.com
+- **Modelo de contratación:** Setup inicial + Cuota mensual de mantenimiento y acceso al software IA sin permanencia.

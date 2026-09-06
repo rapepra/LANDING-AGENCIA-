@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Motores de Inteligencia Artificial (GEO / AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://presupuestaestudios.com/sitemap.xml
