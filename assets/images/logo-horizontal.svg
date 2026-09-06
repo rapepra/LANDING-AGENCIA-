@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="orange-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="navy-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Símbolo Isotipo -->
+  <g transform="translate(10, 4) scale(0.32)">
+    <!-- 1. Pilar vertical inferior del 'P' -->
+    <rect x="18" y="78" width="34" height="106" rx="17" fill="url(#navy-grad)" stroke="#172554" stroke-width="2" />
+
+    <!-- 2. Bucle superior curvado del 'P' -->
+    <path d="M 35 68 V 35 C 35 23 45 17 58 17 H 98 C 128 17 146 34 146 64 C 146 94 126 112 95 112 H 66" 
+          stroke="url(#blue-grad)" 
+          stroke-width="32" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- 3. Check / Tick de Aprobación -->
+    <path d="M 68 140 L 88 175 C 90 178 95 178 98 174 L 155 106" 
+          stroke="url(#orange-grad)" 
+          stroke-width="30" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+
+  <!-- Tipografía Logotipo -->
+  <text x="80" y="44" font-family="'Space Grotesk', 'Inter', -apple-system, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" letter-spacing="-0.5">
+    Presupuesta <tspan fill="url(#orange-grad)">Estudios</tspan>
+  </text>
+  <text x="82" y="64" font-family="'Inter', -apple-system, sans-serif" font-size="11" font-weight="600" fill="#94A3B8" letter-spacing="2" text-transform="uppercase">
+    Gremios · Google Maps · IA
+  </text>
+</svg>

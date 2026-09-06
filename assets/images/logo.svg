@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 220" width="100%" height="100%" fill="none">
+  <!-- Sombra sutil de profundidad -->
+  <defs>
+    <filter id="logo-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+    <linearGradient id="blue-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <linearGradient id="orange-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A00" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+    <linearGradient id="dark-blue-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A" />
+      <stop offset="100%" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#logo-shadow)">
+    <!-- 1. Pilar vertical inferior del 'P' (Azul Marino Oscuro / Sólido) -->
+    <rect x="18" y="78" width="34" height="106" rx="17" fill="url(#dark-blue-gradient)" stroke="#172554" stroke-width="1.5" />
+
+    <!-- 2. Bucle superior curvado del 'P' (Azul Real / Eléctrico) -->
+    <path d="M 35 68 V 35 C 35 23 45 17 58 17 H 98 C 128 17 146 34 146 64 C 146 94 126 112 95 112 H 66" 
+          stroke="url(#blue-gradient)" 
+          stroke-width="32" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+
+    <!-- 3. Check / Tick de Aprobación (Naranja Enérgico / Construcción) -->
+    <path d="M 68 140 L 88 175 C 90 178 95 178 98 174 L 155 106" 
+          stroke="url(#orange-gradient)" 
+          stroke-width="30" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" />
+  </g>
+</svg>
