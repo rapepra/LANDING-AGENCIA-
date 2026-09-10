@@ -266,18 +266,14 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // 7. Sticky Bar Móvil con listener pasivo de scroll
+  // 7. Sticky Bar Móvil con listener pasivo de scroll (solo visible en pantallas móviles)
   const stickyBar = document.querySelector('.mobile-sticky-bar');
   if (stickyBar) {
     let ticking = false;
     window.addEventListener('scroll', () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
-          if (window.scrollY > 200) {
-            stickyBar.style.display = 'block';
-          } else {
-            stickyBar.style.display = 'none';
-          }
+          stickyBar.classList.toggle('visible', window.scrollY > 200);
           ticking = false;
         });
         ticking = true;
