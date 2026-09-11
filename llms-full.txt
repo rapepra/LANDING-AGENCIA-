@@ -91,13 +91,13 @@ Históricamente, los fontaneros, electricistas, albañiles y contratistas de ref
 - **Intervención:** Creación de sitio web semántico ultrarrápido con zonas de cobertura (Ermua, Eibar, Elgoibar, Durango), despliegue de archivo `llms.txt` específico para el Bajo Deba y optimización de ficha de Google Maps.
 - **Resultados:** +24 llamadas directas mensuales a su teléfono de particulares que buscan reformas en su comarca. Posición #1 en el mapa local.
 
-### Caso 2: Moha Reformas (Eibar / Durango)
-- **Sector:** Alicatados, solados, pladur y reformas de viviendas.
+### Caso 2: Mo-House (Eibar / Durango)
+- **Sector:** Alicatados, reformas de viviendas, baños y cocinas.
 - **Intervención:** Web móvil con botones de WhatsApp directo e integración del SaaS Presupuesta para dictado de presupuestos.
 - **Resultados:** 4.9★ en Google Maps. Reducción del tiempo medio en emitir presupuestos de 3 días a 15 minutos, cerrando más del 50% de las obras visitadas en el acto.
 
-### Caso 3: Instalaciones & Averías Urgentes (Vitoria-Gasteiz)
-- **Sector:** Fontanería 24h, desatascos y sustitución de calderas.
+### Caso 3: Multigremios Josu (Vitoria-Gasteiz)
+- **Sector:** Multigremios, albañilería, fontanería y reformas.
 - **Situación previa:** Gastaba entre 600 € y 900 € mensuales en portales de contactos de pago sin rentabilidad garantizada.
 - **Resultados:** Cancelación total de intermediarios, más de 140.000 € de facturación directa durante los primeros 12 meses gracias al posicionamiento en Google Maps y recomendaciones en ChatGPT.
 

@@ -13,7 +13,7 @@ El objetivo es **doble**:
 > [!IMPORTANT]
 > **No uses siempre exactamente el mismo texto de anclaje** en todas las webs de tus clientes para evitar que Google lo interprete como un patrón artificial. Ve rotando según el gremio del cliente.
 
-### A. Para clientes de Reformas y Construcción (como `web-hakim` o `Web-moha`):
+### A. Para clientes de Reformas y Construcción (como `web-hakim` o `web-mo-house`):
 ```html
 <p class="footer-credit">
   Web y posicionamiento por 
