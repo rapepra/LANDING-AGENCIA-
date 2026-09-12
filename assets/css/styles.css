@@ -1678,80 +1678,49 @@ input[type="range"]::-webkit-slider-thumb:hover {
   font-size: 1.6rem;
   cursor: pointer;
 /* --------------------------------------------------------------------------
-   SECCIÓN LOCAL: ERMUA Y ALREDEDORES (DEBABARRENA & DURANGALDEA)
+   MÉTRICAS Y PÍLDORAS DE CASOS REALES DE CLIENTES
    -------------------------------------------------------------------------- */
-.section-local-ermua {
-  background: radial-gradient(ellipse at 50% 50%, rgba(37, 99, 235, 0.06) 0%, transparent 70%);
-}
-
-.local-ermua-grid {
+.case-metrics-row {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 24px;
-  align-items: stretch;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  background: rgba(16, 185, 129, 0.06);
+  border: 1px solid rgba(16, 185, 129, 0.22);
+  border-radius: var(--radius-md);
+  padding: 14px 12px;
+  text-align: center;
+  margin: 6px 0;
 }
 
-.local-info-card {
-  padding: 34px 30px;
-  background: linear-gradient(160deg, rgba(14, 23, 42, 0.85) 0%, rgba(9, 15, 29, 0.95) 100%);
-  border: 1px solid rgba(37, 99, 235, 0.25);
-  border-radius: var(--radius-lg);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+.case-m-val {
+  font-family: var(--font-heading);
+  font-size: 1.55rem;
+  font-weight: 800;
+  color: #34d399;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
 }
 
-.local-badge-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.82rem;
-  color: #60a5fa;
-  font-weight: 600;
-  margin-bottom: 14px;
+.case-m-lbl {
+  font-size: 0.74rem;
+  color: #94a3b8;
+  margin-top: 4px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
-.local-towns-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 14px;
-}
-
-.town-chip {
+.case-pill-green {
   display: inline-flex;
   align-items: center;
-  padding: 6px 13px;
-  font-size: 0.82rem;
-  font-weight: 500;
-  border-radius: var(--radius-pill);
-  background: rgba(255, 255, 255, 0.04);
-  color: #cbd5e1;
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  transition: all var(--transition-fast);
-}
-
-.town-chip:hover {
-  background: rgba(37, 99, 235, 0.12);
-  border-color: rgba(37, 99, 235, 0.35);
-  color: #fff;
-}
-
-.town-chip.main-town {
-  background: rgba(37, 99, 235, 0.18);
-  border-color: rgba(37, 99, 235, 0.45);
-  color: #93c5fd;
-  font-weight: 700;
-}
-
-.local-case-featured {
-  padding: 32px 26px;
-  background: linear-gradient(180deg, rgba(12, 20, 38, 0.9) 0%, rgba(7, 12, 24, 0.95) 100%);
+  gap: 6px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #34d399;
+  background: rgba(16, 185, 129, 0.12);
   border: 1px solid rgba(16, 185, 129, 0.25);
-  border-radius: var(--radius-lg);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  border-radius: var(--radius-pill);
+  padding: 4px 10px;
+  width: fit-content;
 }
 
 /* --------------------------------------------------------------------------
@@ -1795,10 +1764,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
   .pillars-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-  }
-  .local-ermua-grid {
-    grid-template-columns: 1fr;
-    gap: 18px;
   }
   .showroom-grid {
     grid-template-columns: 1fr;
