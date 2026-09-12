@@ -1678,117 +1678,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
   font-size: 1.6rem;
   cursor: pointer;
 /* --------------------------------------------------------------------------
-   LA TRÍADA IMBATIBLE (BARATA, PROFESIONAL, RÁPIDA)
-   -------------------------------------------------------------------------- */
-.section-feature-triad {
-  position: relative;
-}
-
-.triad-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
-  align-items: stretch;
-}
-
-.triad-card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background: linear-gradient(180deg, rgba(14, 23, 42, 0.75) 0%, rgba(9, 15, 29, 0.95) 100%);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: var(--radius-lg);
-  padding: 32px 24px;
-  transition: transform var(--transition-normal), border-color var(--transition-normal), box-shadow var(--transition-normal);
-  backdrop-filter: blur(12px);
-}
-
-.triad-card:hover {
-  transform: translateY(-4px);
-  border-color: rgba(37, 99, 235, 0.4);
-  box-shadow: 0 16px 36px -12px rgba(37, 99, 235, 0.18);
-}
-
-.triad-card-highlight {
-  background: linear-gradient(180deg, rgba(19, 34, 64, 0.8) 0%, rgba(10, 18, 36, 0.95) 100%);
-  border-color: rgba(37, 99, 235, 0.38);
-  box-shadow: 0 12px 35px -10px rgba(37, 99, 235, 0.22);
-}
-
-.triad-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 5px 12px;
-  border-radius: var(--radius-pill);
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text-primary);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  width: fit-content;
-  margin-bottom: 18px;
-}
-
-.triad-badge-star {
-  background: rgba(37, 99, 235, 0.22);
-  color: #93c5fd;
-  border-color: rgba(37, 99, 235, 0.45);
-}
-
-.triad-icon-wrap {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.35rem;
-  margin-bottom: 16px;
-}
-
-.triad-card-highlight .triad-icon-wrap {
-  background: rgba(37, 99, 235, 0.2);
-  border-color: rgba(37, 99, 235, 0.4);
-}
-
-.triad-title {
-  font-size: 1.3rem;
-  color: #fff;
-  margin-bottom: 12px;
-  font-family: var(--font-heading);
-}
-
-.triad-desc {
-  font-size: 0.92rem;
-  color: var(--text-body);
-  line-height: 1.65;
-  margin-bottom: 20px;
-  flex-grow: 1;
-}
-
-.triad-features {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding-top: 18px;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
-}
-
-.triad-features li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 0.85rem;
-  color: #e2e8f0;
-}
-
-/* --------------------------------------------------------------------------
    SECCIÓN LOCAL: ERMUA Y ALREDEDORES (DEBABARRENA & DURANGALDEA)
    -------------------------------------------------------------------------- */
 .section-local-ermua {
@@ -1905,10 +1794,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
   }
   .pillars-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-  }
-  .triad-grid {
-    grid-template-columns: 1fr;
     gap: 16px;
   }
   .local-ermua-grid {
