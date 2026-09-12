@@ -6,17 +6,17 @@
    ========================================================================== */
 
 :root {
-  /* Paleta Corporativa Presupuesta & Presupuesta Estudios */
-  --bg-main: #070b14;             /* Obsidian medianoche profundo */
-  --bg-surface: #0c1424;          /* Slate navy estructurado */
-  --bg-surface-elevated: #111c33; /* Superficie elevada */
-  --bg-card: #0e172a;             /* Tarjetas sólidas, limpias y profesionales */
-  --bg-card-hover: #14213d;       /* Hover sutil con profundidad */
+  /* Paleta Corporativa Presupuesta & Presupuesta Estudios — Dark Minimalist Studio */
+  --bg-main: #050811;             /* Obsidian medianoche profundo */
+  --bg-surface: #090e1a;          /* Slate navy estructurado */
+  --bg-surface-elevated: #0e172a; /* Superficie elevada */
+  --bg-card: #0b1324;             /* Tarjetas sólidas, limpias y profesionales */
+  --bg-card-hover: #101c33;       /* Hover sutil con profundidad */
 
-  --border-light: rgba(255, 255, 255, 0.08);
-  --border-subtle: rgba(255, 255, 255, 0.04);
-  --border-focus: rgba(37, 99, 235, 0.6);
-  --border-brand: rgba(37, 99, 235, 0.28);
+  --border-light: rgba(255, 255, 255, 0.07);
+  --border-subtle: rgba(255, 255, 255, 0.03);
+  --border-focus: rgba(37, 99, 235, 0.5);
+  --border-brand: rgba(37, 99, 235, 0.3);
 
   /* Acento Primario: Azul Cobalto Eléctrico (Tecnología & Solidez de presupuesta.net) */
   --color-brand: #2563eb;
@@ -1677,7 +1677,192 @@ input[type="range"]::-webkit-slider-thumb:hover {
   color: var(--text-muted);
   font-size: 1.6rem;
   cursor: pointer;
-  padding: 4px 8px;
+/* --------------------------------------------------------------------------
+   LA TRÍADA IMBATIBLE (BARATA, PROFESIONAL, RÁPIDA)
+   -------------------------------------------------------------------------- */
+.section-feature-triad {
+  position: relative;
+}
+
+.triad-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+  align-items: stretch;
+}
+
+.triad-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, rgba(14, 23, 42, 0.75) 0%, rgba(9, 15, 29, 0.95) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-lg);
+  padding: 32px 24px;
+  transition: transform var(--transition-normal), border-color var(--transition-normal), box-shadow var(--transition-normal);
+  backdrop-filter: blur(12px);
+}
+
+.triad-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 16px 36px -12px rgba(37, 99, 235, 0.18);
+}
+
+.triad-card-highlight {
+  background: linear-gradient(180deg, rgba(19, 34, 64, 0.8) 0%, rgba(10, 18, 36, 0.95) 100%);
+  border-color: rgba(37, 99, 235, 0.38);
+  box-shadow: 0 12px 35px -10px rgba(37, 99, 235, 0.22);
+}
+
+.triad-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 5px 12px;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-primary);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: fit-content;
+  margin-bottom: 18px;
+}
+
+.triad-badge-star {
+  background: rgba(37, 99, 235, 0.22);
+  color: #93c5fd;
+  border-color: rgba(37, 99, 235, 0.45);
+}
+
+.triad-icon-wrap {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  margin-bottom: 16px;
+}
+
+.triad-card-highlight .triad-icon-wrap {
+  background: rgba(37, 99, 235, 0.2);
+  border-color: rgba(37, 99, 235, 0.4);
+}
+
+.triad-title {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 12px;
+  font-family: var(--font-heading);
+}
+
+.triad-desc {
+  font-size: 0.92rem;
+  color: var(--text-body);
+  line-height: 1.65;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.triad-features {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.triad-features li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  color: #e2e8f0;
+}
+
+/* --------------------------------------------------------------------------
+   SECCIÓN LOCAL: ERMUA Y ALREDEDORES (DEBABARRENA & DURANGALDEA)
+   -------------------------------------------------------------------------- */
+.section-local-ermua {
+  background: radial-gradient(ellipse at 50% 50%, rgba(37, 99, 235, 0.06) 0%, transparent 70%);
+}
+
+.local-ermua-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 24px;
+  align-items: stretch;
+}
+
+.local-info-card {
+  padding: 34px 30px;
+  background: linear-gradient(160deg, rgba(14, 23, 42, 0.85) 0%, rgba(9, 15, 29, 0.95) 100%);
+  border: 1px solid rgba(37, 99, 235, 0.25);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.local-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: #60a5fa;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.local-towns-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.town-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 13px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  border-radius: var(--radius-pill);
+  background: rgba(255, 255, 255, 0.04);
+  color: #cbd5e1;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  transition: all var(--transition-fast);
+}
+
+.town-chip:hover {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: rgba(37, 99, 235, 0.35);
+  color: #fff;
+}
+
+.town-chip.main-town {
+  background: rgba(37, 99, 235, 0.18);
+  border-color: rgba(37, 99, 235, 0.45);
+  color: #93c5fd;
+  font-weight: 700;
+}
+
+.local-case-featured {
+  padding: 32px 26px;
+  background: linear-gradient(180deg, rgba(12, 20, 38, 0.9) 0%, rgba(7, 12, 24, 0.95) 100%);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* --------------------------------------------------------------------------
@@ -1721,6 +1906,14 @@ input[type="range"]::-webkit-slider-thumb:hover {
   .pillars-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+  }
+  .triad-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .local-ermua-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
   .showroom-grid {
     grid-template-columns: 1fr;

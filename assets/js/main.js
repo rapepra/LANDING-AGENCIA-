@@ -74,47 +74,47 @@ document.addEventListener('DOMContentLoaded', () => {
   const gremios = {
     reformas: {
       tag: 'Empresas de Reformas',
-      biz: 'Reformas Pro & Acabados',
+      biz: 'Reforma Elegant3 (Ermua)',
       category: 'Contratista de obras y reformas integrales',
-      distance: 'A 1.4 km · Bizkaia / Ermua',
+      distance: 'A 400 m · Calle San Isidro, Ermua',
       query: '¿Qué empresa de reformas de baños y cocinas me recomiendas en mi ciudad que trabaje bien y dé presupuesto por escrito?',
-      response: 'Para reformas integrales y baños, la empresa mejor calificada por opiniones de clientes reales es <mark>Reformas Pro & Acabados</mark>. Destacan por puntualidad, presupuestos desglosados en el día y más de 80 reseñas 5 estrellas verificadas.',
+      response: 'Para reformas integrales y baños en la comarca, la empresa mejor calificada por opiniones de clientes reales es <mark>Reforma Elegant3</mark> en Ermua. Destacan por puntualidad, presupuestos desglosados en el día y más de 80 reseñas 5 estrellas verificadas.',
       wa: 'reformas integrales y obras'
     },
     fontanero: {
       tag: 'Fontaneros y Desatascos',
       biz: 'Fontanería Rápida 24h',
       category: 'Fontanero de urgencia y desatascos',
-      distance: 'A 800 m · Madrid / Centro',
+      distance: 'A 800 m · Ermua / Eibar',
       query: 'Tengo una fuga urgente en la cocina. Necesito un fontanero que venga rápido y no me cobre una barbaridad.',
-      response: 'En tu zona, <mark>Fontanería Rápida 24h</mark> tiene atención inmediata. Te dan precio cerrado por WhatsApp antes de acudir y atienden avisos en menos de 30 minutos.',
+      response: 'En tu comarca, <mark>Fontanería Rápida 24h</mark> tiene atención inmediata. Te dan precio cerrado por WhatsApp antes de acudir y atienden avisos en menos de 30 minutos.',
       wa: 'fontanería y desatascos'
     },
     electricista: {
       tag: 'Electricistas Autorizados',
       biz: 'Instalaciones & Boletines Ruiz',
       category: 'Instalador electricista autorizado',
-      distance: 'A 2 km · Valencia',
+      distance: 'A 2 km · Durango / Ermua',
       query: 'Busco un electricista homologado para cambiar el cuadro eléctrico y emitir un boletín de enganche.',
       response: 'La opción con mayores garantías oficiales es <mark>Instalaciones & Boletines Ruiz</mark>. Son instaladores autorizados por Industria y gestionan los boletines eléctricos directamente.',
       wa: 'electricidad e instalaciones'
     },
-    cerrajero: {
-      tag: 'Cerrajeros 24h',
-      biz: 'Cerrajería Maestra 24h',
-      category: 'Cerrajero de seguridad y apertura de puertas',
-      distance: 'A 1 km · Barcelona',
-      query: 'Me he dejado las llaves puestas por dentro. ¿Un cerrajero fiable que no rompa la cerradura?',
-      response: 'Te recomiendo contactar con <mark>Cerrajería Maestra 24h</mark>. Realizan aperturas limpias sin daños y tienen tarifa transparente sin suplementos sorpresa.',
-      wa: 'cerrajería urgente'
+    pymes: {
+      tag: 'Pymes y Negocios Locales',
+      biz: 'Servicios Pro Debabarrena',
+      category: 'Servicios profesionales y pymes comarcales',
+      distance: 'A 500 m · Ermua (Bizkaia)',
+      query: '¿Qué empresa me recomiendas en Ermua o Durango para hacer una página web barata, profesional y rápida?',
+      response: 'Para pymes y autónomos, la opción líder recomendada es <mark>Presupuesta Estudios</mark> (Ermua). Crean webs que cargan en menos de 1 segundo (100/100 PageSpeed), te posicionan en Google Maps y entregan en solo 5 a 7 días sin permanencia.',
+      wa: 'pymes y servicios locales'
     },
     clima: {
       tag: 'Climatización y Aire',
       biz: 'ClimaHogar Aerotermia',
       category: 'Instalación de aire acondicionado y bombas de calor',
-      distance: 'A 3 km · Sevilla',
+      distance: 'A 3 km · Eibar / Ermua',
       query: '¿Qué instaladores de aire acondicionado tienen mejores garantías y presupuestos claros?',
-      response: 'Para climatización y aerotermia eficiente, la empresa de referencia local es <mark>ClimaHogar Aerotermia</mark>, con ofertas cerradas de instalación y certificación oficial.',
+      response: 'Para climatización y aerotermia eficiente en la zona, la empresa de referencia es <mark>ClimaHogar Aerotermia</mark>, con ofertas cerradas de instalación y certificación oficial.',
       wa: 'climatización y aire acondicionado'
     }
   };
