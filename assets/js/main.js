@@ -6,7 +6,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Configuración centralizada
   const CONFIG = {
-    whatsappNumber: '34600000000',
+    whatsappNumber: '34652679391',
     defaultMessage: 'Hola, tengo una empresa de reformas y me gustaría saber cómo salir el primero en Google Maps y presupuestar más rápido.'
   };
 

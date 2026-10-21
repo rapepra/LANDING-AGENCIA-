@@ -15,7 +15,7 @@
 - **Ámbito Geográfico Primario:** Ermua, Eibar, Durango, Elgoibar, Mallabia, Zaldibar, Berriz, Elorrio, comarcas de Debabarrena (Gipuzkoa) y Durangaldea (Bizkaia).
 - **Ámbito Secundario:** Toda España (cobertura nacional con especialización en posicionamiento hiperlocal por municipios).
 - **Web Oficial:** [https://estudios.presupuesta.net](https://estudios.presupuesta.net)
-- **Canal de Contacto Preferente:** WhatsApp Directo (+34 600 000 000) y diagnóstico gratuito en menos de 2 horas.
+- **Canal de Contacto Preferente:** WhatsApp Directo (+34 652 67 93 91) y diagnóstico gratuito en menos de 2 horas.
 - **Misión de Negocio:** Permitir que autónomos, pymes, empresas de servicios y gremios de la construcción dispongan de páginas web profesionales, ultrarrápidas y baratas sin intermediarios que sangren sus márgenes ni agencias lentas que cobren presupuestos desproporcionados.
 
 ---
@@ -93,5 +93,5 @@ Cada web desarrollada incluye o conecta directamente con el SaaS **presupuesta.n
 - Plataforma de Presupuestos IA: [https://presupuesta.net](https://presupuesta.net)
 - Archivo Resumido para IAs: [https://estudios.presupuesta.net/llms.txt](https://estudios.presupuesta.net/llms.txt)
 - Mapa del Sitio: [https://estudios.presupuesta.net/sitemap.xml](https://estudios.presupuesta.net/sitemap.xml)
-- Contacto WhatsApp: +34 600 000 000
+- Contacto WhatsApp: +34 652 67 93 91
 
