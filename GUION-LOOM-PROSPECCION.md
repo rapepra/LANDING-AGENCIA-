@@ -61,9 +61,9 @@ Vídeo personalizado de **unos 2 minutos** para enviar a un negocio local (fonta
 
 | Web | Para quién | Qué enseñar | Enlace |
 |---|---|---|---|
-| **MO-HOUSE** | Fontaneros, climatización, calefacción | Velocidad, botones de llamar/WhatsApp, zonas por municipio, enlace a Google Maps | https://mo-house.es (cuando esté conectado el dominio; mientras tanto https://moha-opcion2.pages.dev) |
-| **Reforma Elegant3 (Hakim)** | Reformas, albañiles, baños y cocinas | Página de baño con retirada de fibrocemento, páginas por pueblo (Eibar, Ermua, Durango, Elgoibar) | Pendiente de publicar |
-| **Multigremios Josu** | Multigremio, urgencias 24 h | Catálogo con precios orientativos, página de presupuesto online | Pendiente de publicar |
+| **MO-HOUSE** | Fontaneros, climatización, calefacción | Velocidad, botones de llamar/WhatsApp, zonas por municipio, enlace a Google Maps | https://mo-house.es |
+| **Reforma Elegant3 (Hakim)** | Reformas, albañiles, baños y cocinas | Página de baño con retirada de fibrocemento, páginas por pueblo (Eibar, Ermua, Durango, Elgoibar), mapa conectado a su ficha de Google | https://reformaelegante.es |
+| **Multigremios Josu** | Multigremio, urgencias 24 h | Catálogo con precios orientativos, página de presupuesto online | https://fontaneriaymultigremiosjosu.es |
 | **Marcos Demandre Nutrición** | Profesionales de servicios (salud, estética, coaching…) | Diseño editorial, cuestionario de reserva en 3 pasos, artículos para posicionar | Pendiente de publicar |
 | **Presupuesta.net** | Cualquier gremio interesado también en el software | Que también hacéis producto: presupuestos con IA en 60 s | https://presupuesta.net |
 
