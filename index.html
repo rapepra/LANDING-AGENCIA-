@@ -198,10 +198,35 @@
             </div>
             <button type="button" class="rp-pausa" aria-label="Pausar la reproducción" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="i-pausa" d="M8 5h3v14H8zM13 5h3v14h-3z"/><path class="i-play" d="M8 5l11 7-11 7z"/></svg></button>
           </div>
-          <p class="rp-pie" data-pie="0"><strong>Fontanería Josu</strong> · Web, ficha de Google y datos para IA. <a href="https://fontaneriaymultigremiosjosu.es/" target="_blank" rel="noopener">fontaneriaymultigremiosjosu.es ↗</a></p>
-          <p class="rp-pie" data-pie="1" hidden><strong>Reforma Elegant3</strong> · Web especializada en baños y fibrocemento. <a href="https://reformaelegante.es/" target="_blank" rel="noopener">reformaelegante.es ↗</a></p>
-          <p class="rp-pie" data-pie="2" hidden><strong>Reforma Elegant3</strong> · Por delante de constructoras con más años en el mapa. <a href="https://reformaelegante.es/" target="_blank" rel="noopener">reformaelegante.es ↗</a></p>
         </div>
+        <ul class="resumen-casos" aria-label="Resumen de resultados">
+          <li class="rc">
+            <p class="rc-pregunta">«Cuál es el mejor fontanero de Ermua»</p>
+            <p class="rc-puesto"><span>1.º</span> en la respuesta de la IA de Google</p>
+            <p class="rc-cliente"><strong>Fontanería y Multigremios Josu</strong>4,8 ★ · Fontanero</p>
+            <p class="rc-que">Web, ficha de Google y datos para IA.</p>
+            <p class="rc-enlaces"><a href="https://fontaneriaymultigremiosjosu.es/" target="_blank" rel="noopener">fontaneriaymultigremiosjosu.es ↗</a><button type="button" class="rc-captura" data-captura="assets/casos/captura-1.webp" data-pie="Captura real: «Cuál es el mejor fontanero de Ermua» en el modo IA de Google, octubre de 2026." hidden>Ver captura real</button></p>
+          </li>
+          <li class="rc">
+            <p class="rc-pregunta">«Recomiéndame alguien que quite fibrocemento»</p>
+            <p class="rc-puesto"><span>1.º</span> en la respuesta de la IA de Google</p>
+            <p class="rc-cliente"><strong>Reforma Elegant3</strong>Empresa de construcción · Ermua</p>
+            <p class="rc-que">Web especializada en baños y retirada de fibrocemento.</p>
+            <p class="rc-enlaces"><a href="https://reformaelegante.es/" target="_blank" rel="noopener">reformaelegante.es ↗</a><button type="button" class="rc-captura" data-captura="assets/casos/captura-2.webp" data-pie="Captura real: «Recomiéndame alguien que quite fibrocemento» en el modo IA de Google, octubre de 2026." hidden>Ver captura real</button></p>
+          </li>
+          <li class="rc">
+            <p class="rc-pregunta">«Recomiéndame alguien especializado en baños»</p>
+            <p class="rc-puesto"><span>1.º</span> en la respuesta de la IA de Google</p>
+            <p class="rc-cliente"><strong>Reforma Elegant3</strong>Por delante de constructoras de la zona</p>
+            <p class="rc-que">La IA la recomienda antes que empresas con más años en el mapa.</p>
+            <p class="rc-enlaces"><a href="https://reformaelegante.es/" target="_blank" rel="noopener">reformaelegante.es ↗</a><button type="button" class="rc-captura" data-captura="assets/casos/captura-3.webp" data-pie="Captura real: «Recomiéndame alguien especializado en baños» en el modo IA de Google, octubre de 2026." hidden>Ver captura real</button></p>
+          </li>
+        </ul>
+        <dialog class="visor" id="visor" aria-label="Captura real">
+          <form method="dialog"><button class="visor-cerrar" aria-label="Cerrar">×</button></form>
+          <img src="" alt="" width="1280" height="1300">
+          <p class="visor-pie"></p>
+        </dialog>
         <p class="aviso-casos">Reproducción de búsquedas reales en el modo IA de Google (octubre de 2026). El texto de las respuestas es literal; solo hemos ocultado el nombre de la otra empresa. Las respuestas cambian según quién pregunta, desde dónde y cuándo, así que no prometemos un puesto concreto: preparamos tu negocio para que Google lo entienda y lo pueda recomendar.</p>
       </div>
     </section>
@@ -427,7 +452,8 @@
     <a class="boton" href="https://wa.me/34652679391?text=Hola%2C%20quiero%20que%20revis%C3%A9is%20c%C3%B3mo%20sale%20mi%20negocio%20en%20Google" target="_blank" rel="noopener">Revisamos tu ficha gratis</a>
   </div>
 
-  <script src="assets/reproductor.js?v=20261027" defer></script>
+  <script src="assets/reproductor.js?v=20261028" defer></script>
+  <script src="assets/capturas.js?v=20261028" defer></script>
   <script>
     (function () {
       var c = document.querySelector(".cabecera"), b = document.querySelector(".barra-movil");

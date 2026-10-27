@@ -117,15 +117,12 @@ p { margin: 0; }
 .rp-pausa svg { width: 18px; height: 18px; fill: currentColor; }
 .rp-pausa .i-play, .rp-pausa[aria-pressed="true"] .i-pausa { display: none; }
 .rp-pausa[aria-pressed="true"] .i-play { display: inline; }
-.rp-pie { margin-top: 18px; font-size: .95rem; color: var(--tinta-2); }
-.rp-pie strong { color: var(--tinta); }
-.rp-pie a { color: var(--tinta-2); text-underline-offset: 3px; }
 
 /* Sin JavaScript o sin animaciones: los tres casos, uno debajo de otro */
 .reproductor:not(.activo) .rp-pantalla { gap: 48px; }
 .reproductor:not(.activo) .rp-caso { grid-area: auto; }
 .reproductor:not(.activo) .rp-caso + .rp-caso { padding-top: 48px; border-top: 1px solid rgb(255 255 255 / .08); }
-.reproductor:not(.activo) .rp-controles, .reproductor:not(.activo) .rp-pie { display: none; }
+.reproductor:not(.activo) .rp-controles { display: none; }
 /* Con JavaScript: un caso cada vez, apilados en la misma celda para que no salte la altura */
 .reproductor.activo .rp-caso { visibility: hidden; }
 .reproductor.activo .rp-caso.visible { visibility: visible; }
@@ -143,6 +140,28 @@ p { margin: 0; }
   .rp-ficha img, .rp-hueco { width: 52px; height: 52px; }
   .rp-sello, .rp-puesto { grid-column: 2; justify-self: start; }
 }
+/* Resumen de los tres casos, debajo del reproductor */
+.resumen-casos { list-style: none; padding: 0; margin: 48px 0 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.rc { background: var(--blanco); border: 1px solid var(--linea); border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 10px; }
+.rc p { margin: 0; }
+.rc-pregunta { font-size: .95rem; color: var(--tinta-2); }
+.rc-puesto { display: flex; align-items: baseline; gap: 10px; font-size: .9rem; color: var(--tinta-3); }
+.rc-puesto span { font-family: var(--display); font-weight: 600; font-size: 2.4rem; line-height: 1; letter-spacing: -.04em; color: var(--acento); }
+.rc-cliente strong { display: block; font-family: var(--display); font-size: 1.15rem; font-weight: 600; letter-spacing: -.02em; color: var(--tinta); }
+.rc-cliente { font-size: .9rem; color: var(--tinta-3); }
+.rc-que { font-size: .93rem; color: var(--tinta-2); flex: 1; }
+.rc-enlaces { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px; padding-top: 14px; border-top: 1px solid var(--linea); font-size: .9rem; }
+.rc-enlaces a { color: var(--tinta-2); text-underline-offset: 3px; overflow-wrap: anywhere; }
+.rc-captura { font: inherit; font-weight: 600; color: var(--tinta); background: none; border: 1px solid var(--linea); border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.rc-captura:hover { border-color: var(--tinta-3); }
+@media (max-width: 960px) { .resumen-casos { grid-template-columns: minmax(0, 1fr); max-width: 560px; } }
+
+/* Visor de la captura original */
+.visor { border: 0; padding: 0; background: transparent; max-width: min(92vw, 720px); max-height: 92vh; overflow: visible; }
+.visor::backdrop { background: rgb(10 10 10 / .82); }
+.visor img { display: block; width: 100%; height: auto; max-height: 80vh; object-fit: contain; border-radius: 14px; background: #131313; }
+.visor-pie { margin: 12px 0 0; color: #e8e6e3; font-size: .9rem; text-align: center; }
+.visor-cerrar { position: absolute; top: -14px; right: -14px; width: 40px; height: 40px; border-radius: 50%; border: 0; background: #fff; color: #171614; font-size: 1.5rem; line-height: 1; cursor: pointer; box-shadow: 0 4px 14px rgb(0 0 0 / .3); }
 .aviso-casos { margin-top: 32px; font-size: .85rem; color: var(--tinta-3); max-width: 46em; }
 
 /* Servicios */
