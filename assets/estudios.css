@@ -76,21 +76,73 @@ p { margin: 0; }
 .cabeza-seccion h2 { font-size: clamp(2rem, 4.6vw, 3.4rem); max-width: 14ch; }
 .cabeza-seccion p { color: var(--tinta-2); max-width: 36em; }
 
-/* Casos: lo que responde la IA de Google */
-.casos { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
-.caso { margin: 0; display: flex; flex-direction: column; }
-.pantalla { background: var(--pantalla); color: var(--pantalla-texto); border-radius: 20px; padding: 22px; flex: 1; display: flex; flex-direction: column; gap: 18px; font-size: .93rem; line-height: 1.55; }
-.pregunta { align-self: flex-end; background: var(--pantalla-2); border-radius: 18px; padding: 10px 16px; max-width: 88%; }
-.ficha { display: grid; grid-template-columns: 56px minmax(0, 1fr); gap: 14px; align-items: center; }
-.ficha .foto { width: 56px; height: 56px; border-radius: 14px; background: #2b2b2b center/cover no-repeat; display: grid; place-items: center; font-family: var(--display); font-weight: 600; color: #cfcac3; font-size: 1.1rem; }
-.ficha b { display: block; font-weight: 500; font-size: .95rem; line-height: 1.3; }
-.ficha small { display: block; color: var(--pantalla-suave); font-size: .82rem; }
-.ficha .abierto { color: var(--verde); }
-.respuesta { color: var(--pantalla-texto); }
-.respuesta mark { background: none; color: inherit; text-decoration: underline dotted 1px; text-underline-offset: 4px; }
-.caso figcaption { padding: 18px 4px 0; font-size: .93rem; color: var(--tinta-2); }
-.caso figcaption strong { display: block; color: var(--tinta); font-weight: 600; }
-.caso figcaption a { color: var(--tinta-2); text-underline-offset: 3px; }
+/* Casos: reproducción de las búsquedas reales en la IA de Google */
+.reproductor { max-width: 920px; }
+.rp-marco { background: var(--pantalla); color: var(--pantalla-texto); border-radius: 24px; overflow: hidden; box-shadow: 0 40px 80px -40px rgb(0 0 0 / .45); }
+.rp-barra-ventana { display: flex; align-items: center; gap: 7px; padding: 14px 20px; border-bottom: 1px solid rgb(255 255 255 / .07); font-size: .8rem; color: var(--pantalla-suave); }
+.rp-barra-ventana i { width: 10px; height: 10px; border-radius: 50%; background: #3a3936; }
+.rp-barra-ventana span { margin-left: 10px; }
+.rp-pantalla { display: grid; padding: clamp(20px, 4vw, 40px); font-size: clamp(.95rem, 1.6vw, 1.06rem); line-height: 1.6; }
+.rp-caso { grid-area: 1 / 1; display: flex; flex-direction: column; gap: 22px; }
+.rp-pregunta { align-self: flex-end; background: var(--pantalla-2); border-radius: 22px; padding: 12px 20px; max-width: 86%; font-size: 1.05em; min-height: 1.6em; }
+.rp-pensando { display: none; gap: 6px; padding: 4px 0; }
+.rp-pensando i { width: 8px; height: 8px; border-radius: 50%; background: var(--pantalla-suave); animation: rp-punto 1s ease-in-out infinite; }
+.rp-pensando i:nth-child(2) { animation-delay: .15s; } .rp-pensando i:nth-child(3) { animation-delay: .3s; }
+.rp-respuesta { display: flex; flex-direction: column; gap: 20px; }
+.rp-intro, .rp-texto { color: var(--pantalla-texto); }
+.rp-ficha { position: relative; display: grid; grid-template-columns: 64px minmax(0, 1fr) auto; gap: 16px; align-items: center; padding: 12px; margin: 0 -12px; border-radius: 18px; }
+.rp-ficha img, .rp-hueco { width: 64px; height: 64px; border-radius: 16px; object-fit: cover; background: #2b2b2b; }
+.rp-ficha b { display: block; font-weight: 500; font-size: 1.05em; line-height: 1.3; }
+.rp-ficha small { display: block; color: var(--pantalla-suave); font-size: .88em; }
+.rp-ficha .abierto { color: var(--verde); }
+.rp-ficha .cerrado { color: #f87171; }
+.rp-ficha:not(.rp-otra) { box-shadow: inset 0 0 0 1.5px var(--acento); background: rgb(249 115 22 / .07); }
+.rp-sello { font-size: .75rem; font-weight: 600; color: #fff; background: var(--acento); border-radius: 999px; padding: 4px 10px; white-space: nowrap; }
+.rp-otra > * { opacity: .45; }
+.rp-puesto { font-size: .8rem; color: var(--pantalla-suave); border: 1px solid #3a3936; border-radius: 999px; padding: 3px 10px; }
+.rp-texto mark { background: none; color: inherit; text-decoration: underline dotted 1px; text-underline-offset: 4px; }
+.rp-datos { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 10px; list-style: circle; }
+.rp-datos b { font-weight: 500; }
+
+.rp-controles { display: flex; gap: 12px; align-items: stretch; margin-top: 18px; }
+.rp-pestanas { flex: 1; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.rp-pestanas button { text-align: left; background: none; border: 0; padding: 0 0 4px; cursor: pointer; color: var(--tinta-3); font: inherit; display: flex; flex-direction: column; gap: 6px; }
+.rp-pestanas button[aria-selected="true"] { color: var(--tinta); }
+.rp-barra { display: block; height: 3px; border-radius: 3px; background: var(--linea); overflow: hidden; }
+.rp-barra i { display: block; height: 100%; width: 0; background: var(--tinta); }
+.rp-pestanas button[aria-selected="true"] .rp-barra i { width: var(--progreso, 100%); }
+.rp-tema { font-size: .95rem; font-weight: 600; line-height: 1.3; }
+.rp-cliente { font-size: .85rem; }
+.rp-pausa { flex: none; width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--linea); background: none; color: var(--tinta); cursor: pointer; display: grid; place-items: center; }
+.rp-pausa svg { width: 18px; height: 18px; fill: currentColor; }
+.rp-pausa .i-play, .rp-pausa[aria-pressed="true"] .i-pausa { display: none; }
+.rp-pausa[aria-pressed="true"] .i-play { display: inline; }
+.rp-pie { margin-top: 18px; font-size: .95rem; color: var(--tinta-2); }
+.rp-pie strong { color: var(--tinta); }
+.rp-pie a { color: var(--tinta-2); text-underline-offset: 3px; }
+
+/* Sin JavaScript o sin animaciones: los tres casos, uno debajo de otro */
+.reproductor:not(.activo) .rp-pantalla { gap: 48px; }
+.reproductor:not(.activo) .rp-caso { grid-area: auto; }
+.reproductor:not(.activo) .rp-caso + .rp-caso { padding-top: 48px; border-top: 1px solid rgb(255 255 255 / .08); }
+.reproductor:not(.activo) .rp-controles, .reproductor:not(.activo) .rp-pie { display: none; }
+/* Con JavaScript: un caso cada vez, apilados en la misma celda para que no salte la altura */
+.reproductor.activo .rp-caso { visibility: hidden; }
+.reproductor.activo .rp-caso.visible { visibility: visible; }
+.reproductor.activo .rp-caso.esperando .rp-respuesta > * { opacity: 0; transform: translateY(10px); }
+.reproductor.activo .rp-caso.esperando .rp-respuesta > .mostrado { opacity: 1; transform: none; transition: opacity .5s ease, transform .5s ease; }
+.reproductor.activo .rp-caso.pensando .rp-pensando { display: flex; }
+.rp-cursor { display: inline-block; width: 2px; height: 1.1em; margin-left: 2px; vertical-align: -3px; background: var(--pantalla-texto); animation: rp-cursor 1s steps(1) infinite; }
+@keyframes rp-punto { 0%, 100% { opacity: .3; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-3px); } }
+@keyframes rp-cursor { 50% { opacity: 0; } }
+@media (max-width: 720px) {
+  .rp-pestanas { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .rp-tema { font-size: .82rem; }
+  .rp-cliente { display: none; }
+  .rp-ficha { grid-template-columns: 52px minmax(0, 1fr); }
+  .rp-ficha img, .rp-hueco { width: 52px; height: 52px; }
+  .rp-sello, .rp-puesto { grid-column: 2; justify-self: start; }
+}
 .aviso-casos { margin-top: 32px; font-size: .85rem; color: var(--tinta-3); max-width: 46em; }
 
 /* Servicios */
@@ -166,7 +218,7 @@ p { margin: 0; }
 .barra-movil { display: none; }
 
 @media (max-width: 960px) {
-  .casos, .precios { grid-template-columns: minmax(0, 1fr); max-width: 560px; }
+  .precios { grid-template-columns: minmax(0, 1fr); max-width: 560px; }
   .lista-servicios { grid-template-columns: minmax(0, 1fr); }
   .servicio, .servicio + .servicio { padding: 28px 0 8px; border-left: 0; }
   .servicio + .servicio { border-top: 1px solid var(--linea); }
