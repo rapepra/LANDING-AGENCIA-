@@ -1,5 +1,5 @@
 /* Presupuesta Estudios · hoja única, sin dependencias */
-@font-face { font-family: "Bricolage Grotesque"; src: url("fuentes/bricolage-grotesque.woff2") format("woff2"); font-weight: 200 800; font-display: swap; }
+@font-face { font-family: "Inter Tight"; src: url("fuentes/inter-tight.woff2") format("woff2"); font-weight: 400 700; font-display: swap; }
 @font-face { font-family: "Figtree"; src: url("fuentes/figtree.woff2") format("woff2"); font-weight: 300 900; font-display: swap; }
 
 :root {
@@ -16,7 +16,7 @@
   --pantalla-suave: #a3a09b;
   --verde: #22c55e;
   --ancho: 1120px;
-  --display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --display: "Inter Tight", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --texto: "Figtree", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme: light;
 }
@@ -33,7 +33,7 @@ html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; scroll-padding-t
 body { margin: 0; background: var(--papel); color: var(--tinta); font: 400 1.0625rem/1.6 var(--texto); -webkit-font-smoothing: antialiased; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
-h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: -0.025em; line-height: 1.08; margin: 0; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; letter-spacing: -0.035em; line-height: 1.06; margin: 0; }
 p { margin: 0; }
 :focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; border-radius: 4px; }
 .saltar { position: absolute; left: -999px; top: 8px; background: var(--tinta); color: var(--papel); padding: 8px 14px; border-radius: 6px; z-index: 50; }
