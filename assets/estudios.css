@@ -264,3 +264,31 @@ p { margin: 0; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+
+/* ===== Página de casos reales (/casos/) ===== */
+.portada-casos { padding-bottom: clamp(40px, 6vw, 64px); }
+.portada-casos h1 { font-size: clamp(2.3rem, 6vw, 4.4rem); max-width: 16ch; }
+.miga { font-size: .88rem; color: var(--tinta-3); margin-bottom: 28px; }
+.miga a { color: var(--tinta-2); }
+.casos-pagina { padding-bottom: clamp(48px, 8vw, 96px); }
+.caso-cliente { border-top: 1px solid var(--linea); padding: clamp(40px, 6vw, 64px) 0; }
+.caso-cab { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 16px 64px; align-items: baseline; margin-bottom: 32px; }
+.caso-cab h2 { font-size: clamp(1.7rem, 3.4vw, 2.4rem); }
+.caso-cab p { color: var(--tinta-2); margin: 0; }
+.caso-cab a { color: var(--tinta-2); text-underline-offset: 3px; white-space: nowrap; }
+.capturas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px; }
+.captura { margin: 0; display: flex; flex-direction: column; gap: 16px; }
+.captura-img { display: block; border-radius: 22px; overflow: hidden; background: #000; border: 1px solid var(--linea); aspect-ratio: 9 / 16.5; }
+.captura-img img { width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform .3s; }
+.captura-img:hover img { transform: scale(1.02); }
+.captura figcaption { display: flex; flex-direction: column; gap: 8px; }
+.captura-q { font-family: var(--display); font-weight: 600; letter-spacing: -.02em; color: var(--tinta); font-size: 1.05rem; margin: 0; }
+.captura blockquote { margin: 0; padding-left: 14px; border-left: 2px solid var(--acento); color: var(--tinta-2); font-size: .95rem; }
+.captura-puesto { margin: 0; font-size: .88rem; color: var(--tinta-3); }
+@media (max-width: 960px) { .capturas { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; } .caso-cab { grid-template-columns: 1fr; } }
+@media (max-width: 480px) { .capturas { grid-template-columns: 1fr; } .captura-img { aspect-ratio: 9 / 15; } }
+.rc-cliente { flex: 1; }
+.aviso-casos a { color: var(--tinta-2); text-underline-offset: 3px; }
+.zonas-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.zonas-lista li { padding: 8px 16px; border: 1px solid var(--linea); border-radius: 999px; background: var(--blanco); color: var(--tinta); font-size: .95rem; }
+.zonas-lista li:last-child { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }

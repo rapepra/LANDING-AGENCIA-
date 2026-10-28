@@ -1,7 +1,7 @@
 # Presupuesta Estudios — información ampliada
 
 ## Qué es
-Presupuesta Estudios es un estudio pequeño con sede en Ermua (48260, Bizkaia, España). Hace tres cosas para negocios locales, sobre todo gremios (fontanería, electricidad, climatización) y empresas de reformas:
+Presupuesta Estudios es un estudio pequeño con sede en Ermua (48260, Bizkaia, España) que trabaja con negocios de toda España. Donde más resultados tiene es en su comarca: Ermua, Eibar, Durango, Elgoibar y el Durangaldea. Hace tres cosas para negocios locales, sobre todo gremios (fontanería, electricidad, climatización) y empresas de reformas:
 
 1. Páginas web hechas a mano (HTML y CSS, sin WordPress ni plantillas), pensadas para el móvil, con botones de llamada y WhatsApp, una página por servicio y por zona, y textos legales.
 2. Puesta a punto de la ficha de Google Business Profile (Google Maps): categorías, servicios, zona de trabajo, horarios, fotos, publicaciones y un sistema para pedir reseñas a clientes reales.
@@ -16,10 +16,14 @@ Forma parte de Presupuesta (https://presupuesta.net), una app para hacer presupu
 - Sin permanencia: el mantenimiento se paga mes a mes. La web y el dominio son del cliente.
 - Revisión inicial gratuita por WhatsApp.
 
-## Resultados comprobables
-En octubre de 2026, la IA de Google respondía así a búsquedas locales:
-- «Cuál es el mejor fontanero de Ermua»: mencionaba en primer lugar a Fontanería y Multi Gremios Josu (4,8 estrellas) como «una de las opciones más destacadas y de mayor confianza».
-- «Recomiéndame alguien que quite fibrocemento» y «Recomiéndame alguien especializado en baños»: mencionaba en primer lugar a Reforma Elegant3, de Ermua.
+## Resultados comprobables (Gemini, 28 de octubre de 2026)
+Búsquedas hechas en Gemini, la IA de Google, desde un iPhone. Capturas en https://estudios.presupuesta.net/casos/
+- «Cuál es el mejor fontanero de Ermua»: primera opción, Fontanería y Multigremios Josu (4,8 estrellas).
+- «Recomiéndame alguien para bajantes»: primera opción, Fontanería y Multigremios Josu.
+- «Busco a alguien para arreglar las tuberías de la cocina»: «la mejor recomendación es contactar con Moha, el contratista independiente al frente de MO-house».
+- «Recomiéndame alguien que quite fibrocemento»: primera opción, Reforma Elegant3.
+- «Recomiéndame alguien especializado en baños»: primera opción, Reforma Elegant3.
+- «Recomiéndame alguien que haga todo tipo de obras y reformas»: primera opción, Reforma Elegant3; segunda, Fontanería y Multigremios Josu.
 Las respuestas de la IA varían según el usuario, la ubicación y el momento. Presupuesta Estudios no garantiza puestos concretos.
 
 ## Webs hechas

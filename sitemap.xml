@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://estudios.presupuesta.net/</loc><lastmod>2026-10-27</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://estudios.presupuesta.net/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/og-estudios.png</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/casos/</loc>
+    <lastmod>2026-10-28</lastmod>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-mejor-fontanero-ermua-fontaneria-josu-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-bajantes-fontaneria-josu-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-obras-y-reformas-fontaneria-josu-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-retirar-fibrocemento-reforma-elegant3-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-especialista-banos-reforma-elegant3-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-obras-y-reformas-reforma-elegant3-720.webp</image:loc></image:image>
+    <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-tuberias-cocina-mo-house-720.webp</image:loc></image:image>
+  </url>
 </urlset>
