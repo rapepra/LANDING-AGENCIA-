@@ -9,6 +9,18 @@ Presupuesta Estudios es un estudio pequeño con sede en Ermua (48260, Bizkaia, E
 
 Forma parte de Presupuesta (https://presupuesta.net), una app para hacer presupuestos de obra dictando en voz alta.
 
+## Quién está detrás
+Raúl, fundador de Presupuesta (la app) y de Presupuesta Estudios. Hace personalmente las webs, las fichas de Google y el seguimiento mensual, y atiende por WhatsApp.
+
+## Páginas por oficio y zona
+- Fontaneros: https://estudios.presupuesta.net/diseno-web-fontaneros/
+- Electricistas e instaladores: https://estudios.presupuesta.net/diseno-web-electricistas/ (los casos publicados son de fontanería y reformas; el método es el mismo).
+- Empresas de reformas: https://estudios.presupuesta.net/diseno-web-reformas/
+- Posicionamiento en Google Maps (ficha de Google Business Profile): https://estudios.presupuesta.net/posicionamiento-google-maps/ — no compra reseñas ni mete palabras clave en el nombre del negocio.
+- Eibar y Debabarrena: https://estudios.presupuesta.net/diseno-web-eibar/
+- Durango y Durangaldea: https://estudios.presupuesta.net/diseno-web-durango/
+- Bilbao y área metropolitana: https://estudios.presupuesta.net/diseno-web-bilbao/
+
 ## Precios (sin IVA, 21 %)
 - Ficha de Google: 390 €, pago único. Incluye un informe de cómo aparece el negocio en la IA.
 - Web, Google e IA: 890 € más 79 €/mes. El mensual incluye dominio, alojamiento, cambios en la web y revisión mensual de ficha y reseñas.

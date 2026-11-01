@@ -225,7 +225,7 @@ p { margin: 0; }
 
 /* Pie */
 .pie { border-top: 1px solid var(--linea); padding: 56px 0 40px; font-size: .92rem; color: var(--tinta-2); }
-.pie .columnas { display: grid; grid-template-columns: 1.5fr 1fr 1fr 1fr; gap: 32px; }
+.pie .columnas { display: grid; grid-template-columns: 1.4fr repeat(4, minmax(0, 1fr)); gap: 32px; }
 .pie h3 { font-family: var(--texto); font-size: .82rem; font-weight: 600; color: var(--tinta-3); letter-spacing: .02em; margin-bottom: 14px; }
 .pie ul { list-style: none; margin: 0; padding: 0; }
 .pie li { padding: 4px 0; }
@@ -292,3 +292,40 @@ p { margin: 0; }
 .zonas-lista { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .zonas-lista li { padding: 8px 16px; border: 1px solid var(--linea); border-radius: 999px; background: var(--blanco); color: var(--tinta); font-size: .95rem; }
 .zonas-lista li:last-child { background: var(--tinta); color: var(--papel); border-color: var(--tinta); }
+
+/* ===== Etiqueta dentro del H1 (palabras clave sin cambiar el diseño) ===== */
+.portada h1 .etiqueta { display: flex; width: fit-content; max-width: 100%; font: 400 .85rem/1.5 var(--texto); letter-spacing: 0; color: var(--tinta-2); }
+.pie .legal a { color: inherit; }
+
+/* ===== Quién está detrás ===== */
+.persona { margin-top: clamp(40px, 6vw, 64px); display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 20px; align-items: center; max-width: 680px; padding: 24px; background: var(--blanco); border: 1px solid var(--linea); border-radius: 20px; }
+.persona-foto { width: 72px; height: 72px; border-radius: 50%; background: var(--tinta); color: var(--papel); display: grid; place-items: center; font: 600 1.8rem/1 var(--display); object-fit: cover; }
+.persona b { display: block; font-family: var(--display); font-size: 1.15rem; font-weight: 600; letter-spacing: -.02em; }
+.persona p { color: var(--tinta-2); font-size: .97rem; margin-top: 4px; }
+.persona a { color: var(--tinta); text-underline-offset: 3px; }
+
+/* ===== Enlaces internos por oficio y zona ===== */
+.enlaces-oficio { margin-top: 32px; display: flex; flex-wrap: wrap; gap: 8px 22px; font-size: .95rem; color: var(--tinta-3); }
+.enlaces-oficio a { color: var(--tinta); text-underline-offset: 3px; }
+.zonas-lista a { color: inherit; text-decoration: none; }
+.zonas-lista li:has(a) { border-color: var(--tinta-3); }
+.zonas-lista li:has(a):hover { border-color: var(--tinta); }
+
+/* ===== Páginas de servicio y de zona ===== */
+.prosa { max-width: 46em; display: flex; flex-direction: column; gap: 18px; color: var(--tinta-2); font-size: 1.06rem; }
+.prosa strong { color: var(--tinta); font-weight: 600; }
+.busquedas { list-style: none; margin: 0 0 40px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.busquedas li { padding: 8px 16px; border: 1px solid var(--linea); border-radius: 999px; background: var(--blanco); font-size: .95rem; color: var(--tinta); }
+.busquedas li::before { content: "«"; color: var(--tinta-3); } .busquedas li::after { content: "»"; color: var(--tinta-3); }
+.tarifas { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--linea); max-width: 860px; }
+.tarifas li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 24px; padding: 22px 0; border-bottom: 1px solid var(--linea); align-items: baseline; }
+.tarifas li.destacado b::after { content: "Lo más pedido"; margin-left: 10px; font: 600 .72rem/1 var(--texto); letter-spacing: 0; color: #fff; background: var(--acento); border-radius: 999px; padding: 4px 9px; vertical-align: 3px; }
+.tarifas b { font-family: var(--display); font-size: 1.25rem; font-weight: 600; letter-spacing: -.02em; }
+.tarifas span { grid-column: 1; color: var(--tinta-2); font-size: .95rem; }
+.tarifas em { grid-column: 2; grid-row: 1 / span 2; font-style: normal; text-align: right; font-family: var(--display); font-weight: 600; font-size: 1.5rem; letter-spacing: -.03em; white-space: nowrap; }
+.tarifas em small { display: block; font-family: var(--texto); font-size: .85rem; font-weight: 400; letter-spacing: 0; color: var(--tinta-2); }
+.pasos-cortos { margin-top: 0; }
+@media (max-width: 560px) {
+  .tarifas li { grid-template-columns: minmax(0, 1fr); }
+  .tarifas em { grid-column: 1; grid-row: auto; text-align: left; margin-top: 6px; }
+}

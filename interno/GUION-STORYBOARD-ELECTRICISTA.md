@@ -8,7 +8,7 @@
 ---
 
 ### 📷 Referencia Visual del Storyboard
-![Storyboard Anuncio Electricista](assets/images/storyboard-anuncio-electricista.jpg)
+![Storyboard Anuncio Electricista](storyboard-anuncio-electricista.jpg)
 
 ---
 

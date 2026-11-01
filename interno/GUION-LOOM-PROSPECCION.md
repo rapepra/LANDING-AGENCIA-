@@ -47,7 +47,7 @@ Vídeo personalizado de **unos 2 minutos** para enviar a un negocio local (fonta
 ### 1:30 – 1:50 · Qué haría con su negocio
 > "Para ti haría tres cosas:
 > 1. Dejar tu ficha de Google Maps completa y con un sistema para conseguir reseñas después de cada trabajo.
-> 2. Una web rápida con tus servicios y los pueblos donde trabajas, lista en unos 7 días.
+> 2. Una web rápida con tus servicios y los pueblos donde trabajas, lista en unas dos semanas.
 > 3. Prepararla para que las IAs te conozcan y te puedan recomendar.
 >
 > Sin permanencia y tratando directamente conmigo."

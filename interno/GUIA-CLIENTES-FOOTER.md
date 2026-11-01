@@ -17,7 +17,7 @@ El objetivo es **doble**:
 ```html
 <p class="footer-credit">
   Web y posicionamiento por 
-  <a href="https://presupuestaestudios.com" target="_blank" rel="noopener" title="Especialistas en webs y Google Maps para reformas">
+  <a href="https://estudios.presupuesta.net/" target="_blank" rel="noopener" title="Especialistas en webs y Google Maps para reformas">
     Presupuesta Estudios
   </a> · Especialistas en empresas de reformas
 </p>
@@ -27,7 +27,7 @@ El objetivo es **doble**:
 ```html
 <p class="footer-credit">
   Diseño web y SEO local por 
-  <a href="https://presupuestaestudios.com" target="_blank" rel="noopener" title="Webs de alta conversión para fontaneros">
+  <a href="https://estudios.presupuesta.net/" target="_blank" rel="noopener" title="Webs de alta conversión para fontaneros">
     Presupuesta Estudios
   </a> · Páginas web para fontaneros
 </p>
@@ -37,7 +37,7 @@ El objetivo es **doble**:
 ```html
 <p class="footer-credit">
   Digitalización y Google Maps por 
-  <a href="https://presupuestaestudios.com" target="_blank" rel="noopener" title="Posicionamiento y webs para instaladores electricistas">
+  <a href="https://estudios.presupuesta.net/" target="_blank" rel="noopener" title="Posicionamiento y webs para instaladores electricistas">
     Presupuesta Estudios
   </a> · Clientes directos para instaladores
 </p>
@@ -47,7 +47,7 @@ El objetivo es **doble**:
 ```html
 <p class="footer-credit">
   Desarrollado por 
-  <a href="https://presupuestaestudios.com" target="_blank" rel="noopener">
+  <a href="https://estudios.presupuesta.net/" target="_blank" rel="noopener">
     Presupuesta Estudios
   </a> · Presupuestos inteligentes con 
   <a href="https://presupuesta.net" target="_blank" rel="noopener">
@@ -90,7 +90,7 @@ Añade estas líneas al archivo CSS de la web del cliente para que el enlace que
 Si quieres rastrear exactamente qué cliente te está trayendo visitas a tu landing de agencia, puedes añadir parámetros UTM a los enlaces:
 
 ```html
-<a href="https://presupuestaestudios.com/?utm_source=reforma-hakim&utm_medium=footer-credit&utm_campaign=client-referral" target="_blank" rel="noopener">
+<a href="https://estudios.presupuesta.net//?utm_source=reforma-hakim&utm_medium=footer-credit&utm_campaign=client-referral" target="_blank" rel="noopener">
   Presupuesta Estudios
 </a>
 ```

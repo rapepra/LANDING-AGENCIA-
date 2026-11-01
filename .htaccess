@@ -1,10 +1,19 @@
 # Presupuesta Estudios · si Hostinger ya tiene un .htaccess, junta las reglas en vez de sustituirlo
 ErrorDocument 404 /404.html
 RewriteEngine On
+
+# Todo por HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-RewriteRule ^index\.html$ / [L,R=301]
-RewriteRule ^(GUIA|GUION)-.*\.md$ - [F,L]
+
+# /index.html y /carpeta/index.html → URL limpia. Se mira la petición original del navegador
+# (THE_REQUEST) para no entrar en bucle con la petición interna que hace el servidor al abrir "/".
+RewriteCond %{THE_REQUEST} \s/+((?:[^\s?]*/)?)index\.html[\s?]
+RewriteRule ^ /%1 [L,R=301]
+
+# Documentos internos: nunca se sirven, aunque se suban por error
+RewriteRule ^interno(/|$) - [R=404,L]
+RewriteRule \.md$ - [R=404,L]
 
 <IfModule mod_headers.c>
   Header set X-Content-Type-Options "nosniff"
@@ -12,7 +21,7 @@ RewriteRule ^(GUIA|GUION)-.*\.md$ - [F,L]
   <FilesMatch "\.(woff2|png|svg|webp|jpg)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>
-  <FilesMatch "\.css$">
+  <FilesMatch "\.(css|js)$">
     Header set Cache-Control "public, max-age=2592000"
   </FilesMatch>
 </IfModule>

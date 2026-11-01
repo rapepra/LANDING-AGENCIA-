@@ -8,9 +8,9 @@ Esta carpeta contiene las creatividades listas para lanzar campañas publicitari
 
 | Archivo | Formato | Ratio | Ángulo de Conversión | Recomendado Para |
 |---|---|---|---|---|
-| [`anuncio-presupuesta-original-corregido.png`](file:///Users/raul/Desktop/cosas%20presupuesta:%20webs%20y%20demás/LANDING-AGENCIA-/assets/anuncios/anuncio-presupuesta-original-corregido.png) | PNG / JPG | 9:16 (Story/Reel) | **Visual Directo**: Tu diseño original corregido al píxel ("Presupuesta", tipografía oficial Nunito 800, baseline y colores exactos). | Retargeting, Tráfico a Demo |
-| [`anuncio-presupuesta-historia-movil-ia.jpg`](file:///Users/raul/Desktop/cosas%20presupuesta:%20webs%20y%20demás/LANDING-AGENCIA-/assets/anuncios/anuncio-presupuesta-historia-movil-ia.jpg) | JPG | 9:16 (Story/Reel) | **SaaS Moderno**: Mockup iPhone con desglose automático de costes e IA por voz desde la furgoneta. ("De 1 hora a 60 segundos"). | Captación Fría (Top of Funnel) |
-| [`anuncio-presupuesta-gremio-reels.jpg`](file:///Users/raul/Desktop/cosas%20presupuesta:%20webs%20y%20demás/LANDING-AGENCIA-/assets/anuncios/anuncio-presupuesta-gremio-reels.jpg) | JPG | 9:16 (Story/Reel) | **Dolor Emocional**: "¿Cansado de hacer presupuestos de noche? Dicta la obra en 1 minuto y envía el PDF por WhatsApp". | Gremios, Reformistas y Autónomos |
+| [`anuncio-presupuesta-original-corregido.png`](anuncio-presupuesta-original-corregido.png) | PNG / JPG | 9:16 (Story/Reel) | **Visual Directo**: Tu diseño original corregido al píxel ("Presupuesta", tipografía oficial Nunito 800, baseline y colores exactos). | Retargeting, Tráfico a Demo |
+| [`anuncio-presupuesta-historia-movil-ia.jpg`](anuncio-presupuesta-historia-movil-ia.jpg) | JPG | 9:16 (Story/Reel) | **SaaS Moderno**: Mockup iPhone con desglose automático de costes e IA por voz desde la furgoneta. ("De 1 hora a 60 segundos"). | Captación Fría (Top of Funnel) |
+| [`anuncio-presupuesta-gremio-reels.jpg`](anuncio-presupuesta-gremio-reels.jpg) | JPG | 9:16 (Story/Reel) | **Dolor Emocional**: "¿Cansado de hacer presupuestos de noche? Dicta la obra en 1 minuto y envía el PDF por WhatsApp". | Gremios, Reformistas y Autónomos |
 
 ---
 

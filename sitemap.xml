@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://estudios.presupuesta.net/</loc>
-    <lastmod>2026-10-28</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <image:image><image:loc>https://estudios.presupuesta.net/assets/og-estudios.png</image:loc></image:image>
   </url>
   <url>
@@ -15,5 +15,33 @@
     <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-especialista-banos-reforma-elegant3-720.webp</image:loc></image:image>
     <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-obras-y-reformas-reforma-elegant3-720.webp</image:loc></image:image>
     <image:image><image:loc>https://estudios.presupuesta.net/assets/casos/gemini/gemini-tuberias-cocina-mo-house-720.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/diseno-web-fontaneros/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/diseno-web-electricistas/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/diseno-web-reformas/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/posicionamiento-google-maps/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/diseno-web-eibar/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/diseno-web-durango/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://estudios.presupuesta.net/diseno-web-bilbao/</loc>
+    <lastmod>2026-11-02</lastmod>
   </url>
 </urlset>
