@@ -25,6 +25,15 @@ posicionamiento-google-maps/
 diseno-web-eibar/
 diseno-web-durango/
 diseno-web-bilbao/
+diseno-web-ermua/
+diseno-web-mallabia/
+diseno-web-zaldibar/
+diseno-web-abadino/
+diseno-web-elgoibar/
+diseno-web-elgeta/
+diseno-web-bizkaia/
+diseno-web-gipuzkoa/
+diseno-web-espana/
 ```
 
 No subir: `interno/`, `capturas de gemini/`, `.git/`, `.gitignore`, `.DS_Store`.

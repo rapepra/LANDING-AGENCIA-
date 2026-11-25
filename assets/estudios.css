@@ -318,6 +318,8 @@ p { margin: 0; }
 .zonas-lista a { color: inherit; text-decoration: none; }
 .zonas-lista li:has(a) { border-color: var(--tinta-3); }
 .zonas-lista li:has(a):hover { border-color: var(--tinta); }
+.zonas-lista li:has(a) { padding: 0; }
+.zonas-lista li a { display: block; padding: 8px 16px; }
 
 /* ===== Páginas de servicio y de zona ===== */
 .prosa { max-width: 46em; display: flex; flex-direction: column; gap: 18px; color: var(--tinta-2); font-size: 1.06rem; }
