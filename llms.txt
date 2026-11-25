@@ -36,6 +36,15 @@
 - [Diseño web en Bizkaia](https://estudios.presupuesta.net/diseno-web-bizkaia/) y [en Gipuzkoa](https://estudios.presupuesta.net/diseno-web-gipuzkoa/): toda la provincia.
 - [Diseño web en toda España](https://estudios.presupuesta.net/diseno-web-espana/): a distancia, por WhatsApp y videollamada.
 
+
+## Guías para gremios
+- [Todas las guías](https://estudios.presupuesta.net/guias/)
+- [Cuánto cuesta una web para un gremio](https://estudios.presupuesta.net/guias/cuanto-cuesta-una-web-para-un-gremio/)
+- [Cómo salir en Google Maps](https://estudios.presupuesta.net/guias/como-salir-en-google-maps/)
+- [Cómo aparecer en la IA de Google](https://estudios.presupuesta.net/guias/como-aparecer-en-la-ia-de-google/)
+- [Cómo conseguir reseñas en Google](https://estudios.presupuesta.net/guias/como-conseguir-resenas-en-google/)
+- [Qué tiene que tener la web de un gremio](https://estudios.presupuesta.net/guias/que-tiene-que-tener-la-web-de-un-gremio/)
+
 ## Trabajos
 - [Fontanería y Multigremios Josu](https://fontaneriaymultigremiosjosu.es/): fontanería, urgencias 24 h y reformas en Ermua.
 - [Reforma Elegant3](https://reformaelegante.es/): reforma de baños y retirada coordinada de fibrocemento en Ermua.

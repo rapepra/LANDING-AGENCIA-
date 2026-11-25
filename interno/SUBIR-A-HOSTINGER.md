@@ -34,6 +34,7 @@ diseno-web-elgeta/
 diseno-web-bizkaia/
 diseno-web-gipuzkoa/
 diseno-web-espana/
+guias/                       (entera)
 ```
 
 No subir: `interno/`, `capturas de gemini/`, `.git/`, `.gitignore`, `.DS_Store`.

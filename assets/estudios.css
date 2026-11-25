@@ -339,3 +339,35 @@ p { margin: 0; }
   .tarifas li { grid-template-columns: minmax(0, 1fr); }
   .tarifas em { grid-column: 1; grid-row: auto; text-align: left; margin-top: 6px; }
 }
+
+/* ===== Clientes (página de Ermua) ===== */
+.clientes { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+.cliente { background: var(--blanco); border: 1px solid var(--linea); border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; }
+.cliente-oficio { font-size: .85rem; color: var(--tinta-3); }
+.cliente h3 { font-size: 1.35rem; }
+.cliente > p:not(.cliente-oficio) { color: var(--tinta-2); font-size: .97rem; }
+.cliente ul { list-style: none; margin: 4px 0 8px; padding: 0; font-size: .93rem; flex: 1; }
+.cliente li { padding: 8px 0; border-top: 1px solid var(--linea); }
+.cliente > a { font-weight: 600; color: var(--tinta); text-underline-offset: 3px; overflow-wrap: anywhere; }
+@media (max-width: 960px) { .clientes { grid-template-columns: minmax(0, 1fr); max-width: 620px; } }
+
+/* ===== Guías ===== */
+.firma { margin-top: 22px; font-size: .9rem; color: var(--tinta-3); }
+.articulo { max-width: 46em; }
+.respuesta-corta { margin: 0 0 36px; padding: 22px 24px; background: var(--blanco); border: 1px solid var(--linea); border-left: 3px solid var(--acento); border-radius: 0 16px 16px 0; color: var(--tinta); font-size: 1.06rem; }
+.respuesta-corta b { display: block; font-family: var(--display); font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; color: var(--acento); margin-bottom: 8px; }
+.indice { margin: 0 0 40px; padding: 20px 24px; border: 1px solid var(--linea); border-radius: 16px; font-size: .95rem; }
+.indice b { display: block; margin-bottom: 8px; }
+.indice ol { margin: 0; padding-left: 1.2em; }
+.indice li { padding: 3px 0; }
+.indice a { color: var(--tinta-2); text-underline-offset: 3px; }
+.articulo .prosa h2 { color: var(--tinta); font-size: clamp(1.5rem, 3vw, 2.05rem); line-height: 1.15; margin-top: 30px; scroll-margin-top: 90px; }
+.articulo .prosa h3 { color: var(--tinta); font-size: 1.2rem; letter-spacing: -.02em; margin-top: 8px; }
+.articulo .prosa ul, .articulo .prosa ol { margin: 0; padding-left: 1.2em; display: flex; flex-direction: column; gap: 8px; }
+.articulo .prosa a { color: var(--tinta); text-underline-offset: 3px; }
+.articulo .prosa code { font-size: .92em; background: var(--blanco); border: 1px solid var(--linea); border-radius: 6px; padding: 1px 6px; }
+.articulo .prosa blockquote { margin: 0; padding: 16px 20px; background: var(--blanco); border: 1px dashed var(--linea); border-radius: 12px; color: var(--tinta); }
+.tabla-scroll { overflow-x: auto; }
+.tabla { width: 100%; border-collapse: collapse; font-size: .95rem; min-width: 480px; }
+.tabla th, .tabla td { text-align: left; padding: 12px 14px 12px 0; border-bottom: 1px solid var(--linea); vertical-align: top; }
+.tabla th { color: var(--tinta); font-weight: 600; }
