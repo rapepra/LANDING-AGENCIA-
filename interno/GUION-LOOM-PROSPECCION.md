@@ -94,7 +94,7 @@ Vídeo personalizado de **unos 2 minutos** para enviar a un negocio local (fonta
 >
 > Si te interesa, respóndeme con un "sí" y te paso el análisis completo, gratis.
 >
-> Raúl · Presupuesta Estudios · 652 67 93 91 · https://estudios.presupuesta.net/
+> Raúl · Presupuesta Estudios · 623 81 09 68 · https://estudios.presupuesta.net/
 >
 > *Si no quieres recibir más mensajes, responde "baja" y no volveré a escribirte.*
 
