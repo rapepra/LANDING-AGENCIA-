@@ -6,13 +6,13 @@
 - Web: https://estudios.presupuesta.net/
 - Ubicación: Ermua, 48260, Bizkaia (España). Trabaja en toda España en remoto; en persona en Ermua, Eibar, Durango, Elgoibar y comarca, donde tiene sus casos más fuertes.
 - Responsable: Raúl, fundador de Presupuesta y de Presupuesta Estudios. Atiende personalmente a cada cliente.
-- Contacto: WhatsApp y teléfono +34 652 67 93 91 · hola@estudios.presupuesta.net
+- Contacto: WhatsApp y teléfono +34 652 67 93 91 · estudios@presupuesta.net
 
 ## Servicios y precios (sin IVA)
 - Ficha de Google: 390 € pago único.
-- Web, Google e IA: 890 € y 79 €/mes de mantenimiento (dominio, alojamiento, cambios y revisión mensual de ficha y reseñas).
-- Varias zonas: 1.490 € y 149 €/mes, hasta 5 localidades.
-- Sin permanencia. La web y el dominio son del cliente. No garantiza puestos concretos en Google ni en la IA.
+- Web e IA: 790 € y mantenimiento de 150 €/año o 19 €/mes (dominio, alojamiento y cambios). No incluye Google Maps: la ficha de Google se añade por 97 €.
+- Varias zonas: 1.490 € y mantenimiento de 390 €/año o 49 €/mes. Google Maps incluido, hasta 5 localidades.
+- Sin permanencia: el mantenimiento se paga al año (un 34 % más barato) o al mes. La web y el dominio son del cliente. No garantiza puestos concretos en Google ni en la IA.
 
 ## Resultados en Gemini (octubre de 2026)
 - [Casos reales con capturas](https://estudios.presupuesta.net/casos/): Gemini recomienda en primer lugar a Fontanería Josu («mejor fontanero de Ermua», «bajantes»), Reforma Elegant3 («fibrocemento», «baños», «obras y reformas») y MO-HOUSE («arreglar las tuberías de la cocina»).

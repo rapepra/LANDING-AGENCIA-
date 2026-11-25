@@ -23,9 +23,9 @@ Raúl, fundador de Presupuesta (la app) y de Presupuesta Estudios. Hace personal
 
 ## Precios (sin IVA, 21 %)
 - Ficha de Google: 390 €, pago único. Incluye un informe de cómo aparece el negocio en la IA.
-- Web, Google e IA: 890 € más 79 €/mes. El mensual incluye dominio, alojamiento, cambios en la web y revisión mensual de ficha y reseñas.
-- Varias zonas: 1.490 € más 149 €/mes. Páginas para hasta 5 localidades, varias fichas o sedes e informe mensual de llamadas.
-- Sin permanencia: el mantenimiento se paga mes a mes. La web y el dominio son del cliente.
+- Web e IA: 790 € más mantenimiento de 150 €/año o 19 €/mes. El mantenimiento incluye dominio, alojamiento y cambios en la web. No incluye Google Maps: la ficha de Google se añade por 97 €.
+- Varias zonas: 1.490 € más mantenimiento de 390 €/año o 49 €/mes. Google Maps incluido. Páginas para hasta 5 localidades, varias fichas o sedes e informe mensual de llamadas.
+- Sin permanencia: el mantenimiento se paga al año (un 34 % más barato) o al mes, y el mensual se deja cuando se quiera. La web y el dominio son del cliente.
 - Revisión inicial gratuita por WhatsApp.
 
 ## Resultados comprobables (Gemini, 28 de octubre de 2026)
@@ -45,5 +45,5 @@ Las respuestas de la IA varían según el usuario, la ubicación y el momento. P
 
 ## Contacto
 - WhatsApp y teléfono: +34 652 67 93 91
-- Email: hola@estudios.presupuesta.net
+- Email: estudios@presupuesta.net
 - Web: https://estudios.presupuesta.net/

@@ -9,6 +9,9 @@ Aunque se suba por error, el `.htaccess` devuelve 404 para `interno/` y para cua
 .htaccess
 404.html
 index.html
+favicon.ico
+apple-touch-icon.png
+site.webmanifest
 robots.txt
 sitemap.xml
 llms.txt
@@ -31,6 +34,8 @@ No subir: `interno/`, `capturas de gemini/`, `.git/`, `.gitignore`, `.DS_Store`.
 1. En el Administrador de archivos de Hostinger, abre el `.htaccess` que ya hay en `public_html/`.
    Si tiene reglas de Hostinger, pega las nuestras **debajo** en vez de sustituirlo.
 2. Borra del servidor los `.md` antiguos de la raíz (`GUIA-*.md`, `GUION-*.md`) y la carpeta `assets/anuncios/`.
+3. Borra también lo del logo antiguo: `assets/favicon.svg`, `assets/og-estudios.png` y de `assets/images/` los `logo.*`, `logo-horizontal.*` y `presupuesta-*`.
+   Lo más limpio: borrar la carpeta `assets/` del servidor entera y subir la nueva.
 
 ## Después de subir: comprobar (Terminal)
 

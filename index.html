@@ -15,16 +15,18 @@
   <meta property="og:url" content="https://estudios.presupuesta.net/">
   <meta property="og:title" content="Diseño web y Google Maps para gremios · Presupuesta Estudios">
   <meta property="og:description" content="Webs, Google Maps y visibilidad en la IA para fontaneros, electricistas y empresas de reformas.">
-  <meta property="og:image" content="https://estudios.presupuesta.net/assets/og-estudios.png">
+  <meta property="og:image" content="https://estudios.presupuesta.net/assets/og-presupuesta-estudios.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Presupuesta Estudios: webs, Google Maps e IA para fontaneros, electricistas y reformas">
   <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="icon" href="assets/images/logo.png" type="image/png" sizes="192x192">
-  <link rel="apple-touch-icon" href="assets/images/logo.png">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
+  <link rel="icon" href="/assets/icono-estudios.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="assets/fuentes/inter-tight.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fuentes/figtree.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/estudios.css?v=20261102">
+  <link rel="stylesheet" href="assets/estudios.css?v=20261125">
   <link rel="alternate" type="text/plain" href="https://estudios.presupuesta.net/llms.txt" title="llms.txt">
   <script type="application/ld+json">
   {
@@ -35,11 +37,11 @@
         "@id": "https://estudios.presupuesta.net/#agency",
         "name": "Presupuesta Estudios",
         "url": "https://estudios.presupuesta.net/",
-        "logo": "https://estudios.presupuesta.net/assets/images/logo.png",
-        "image": "https://estudios.presupuesta.net/assets/og-estudios.png",
+        "logo": { "@type": "ImageObject", "url": "https://estudios.presupuesta.net/assets/images/icono-estudios-512.png", "width": 512, "height": 512 },
+        "image": ["https://estudios.presupuesta.net/assets/og-presupuesta-estudios.png", "https://estudios.presupuesta.net/assets/images/logo-estudios.png"],
         "description": "Estudio de páginas web, Google Maps y visibilidad en asistentes de IA para fontaneros, electricistas, instaladores y empresas de reformas.",
         "telephone": "+34652679391",
-        "email": "hola@estudios.presupuesta.net",
+        "email": "estudios@presupuesta.net",
         "priceRange": "390 € – 1.490 €",
         "address": { "@type": "PostalAddress", "addressLocality": "Ermua", "postalCode": "48260", "addressRegion": "Bizkaia", "addressCountry": "ES" },
         "geo": { "@type": "GeoCoordinates", "latitude": 43.1869, "longitude": -2.5024 },
@@ -51,14 +53,15 @@
         ],
         "knowsAbout": ["Diseño web", "Diseño web para fontaneros", "Diseño web para electricistas", "Diseño web para empresas de reformas", "SEO local", "Google Business Profile", "Datos estructurados", "llms.txt"],
         "founder": { "@type": "Person", "@id": "https://presupuesta.net/#fundador", "name": "Raúl", "jobTitle": "Fundador de Presupuesta y Presupuesta Estudios" },
-        "subOrganization": { "@id": "https://presupuesta.net/#organizacion" },
+        "parentOrganization": { "@type": "Organization", "@id": "https://presupuesta.net/#organizacion", "name": "Presupuesta", "url": "https://presupuesta.net/" },
+        "contactPoint": { "@type": "ContactPoint", "contactType": "customer service", "telephone": "+34652679391", "email": "estudios@presupuesta.net", "availableLanguage": ["es"], "areaServed": "ES" },
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "Servicios",
           "itemListElement": [
             { "@type": "Offer", "name": "Ficha de Google", "price": "390", "priceCurrency": "EUR", "description": "Puesta a punto de la ficha de Google Business Profile. Pago único, IVA no incluido." },
-            { "@type": "Offer", "name": "Web, Google e IA", "price": "890", "priceCurrency": "EUR", "description": "Web a medida, ficha de Google y datos para IA. Más 79 € al mes de mantenimiento. IVA no incluido." },
-            { "@type": "Offer", "name": "Varias zonas", "price": "1490", "priceCurrency": "EUR", "description": "Para empresas que trabajan en varias localidades. Más 149 € al mes. IVA no incluido." }
+            { "@type": "Offer", "name": "Web e IA", "price": "790", "priceCurrency": "EUR", "description": "Web a medida y datos para IA, sin Google Maps (la ficha de Google se añade por 97 €). Mantenimiento de 150 € al año o 19 € al mes. IVA no incluido." },
+            { "@type": "Offer", "name": "Varias zonas", "price": "1490", "priceCurrency": "EUR", "description": "Para empresas que trabajan en varias localidades, con Google Maps incluido. Mantenimiento de 390 € al año o 49 € al mes. IVA no incluido." }
           ]
         }
       },
@@ -75,7 +78,7 @@
         "mainEntity": [
           { "@type": "Question", "name": "¿Me garantizáis salir el primero en Google o en la IA?", "acceptedAnswer": { "@type": "Answer", "text": "No, y desconfía de quien lo garantice. Lo que hacemos es dejar tu web, tu ficha y tus datos como Google y las IAs necesitan para entender quién eres, qué haces y dónde. Con eso, y con reseñas reales, tus opciones de salir arriba suben mucho." } },
           { "@type": "Question", "name": "¿Cuánto tarda?", "acceptedAnswer": { "@type": "Answer", "text": "La web suele estar en unas dos semanas desde que nos pasas fotos y datos. La ficha de Google se pone a punto en unos días; los cambios en el mapa y en la IA tardan semanas en notarse." } },
-          { "@type": "Question", "name": "¿Hay permanencia?", "acceptedAnswer": { "@type": "Answer", "text": "No. El mantenimiento es mensual y lo puedes dejar cuando quieras. La web y el dominio son tuyos." } },
+          { "@type": "Question", "name": "¿Hay permanencia?", "acceptedAnswer": { "@type": "Answer", "text": "No. Si pagas el mantenimiento al mes, lo dejas cuando quieras. Si lo pagas al año, te sale un 34 % más barato y decides cada año si renuevas. La web y el dominio son tuyos." } },
           { "@type": "Question", "name": "¿Los precios llevan IVA?", "acceptedAnswer": { "@type": "Answer", "text": "No. Todos los precios son sin IVA (21 %)." } },
           { "@type": "Question", "name": "¿Trabajáis fuera de Ermua?", "acceptedAnswer": { "@type": "Answer", "text": "Sí. Estamos en Ermua y trabajamos con negocios de toda España. Si estás cerca, nos vemos en persona; si no, por WhatsApp y videollamada." } },
           { "@type": "Question", "name": "¿Qué necesito para empezar?", "acceptedAnswer": { "@type": "Answer", "text": "Fotos de tus trabajos, lo que haces, las zonas en las que trabajas y acceso a tu ficha de Google si ya la tienes. Lo demás lo hacemos nosotros." } }
@@ -90,10 +93,7 @@
 
   <header class="cabecera">
     <div class="envoltura">
-      <a class="marca" href="/" aria-label="Presupuesta Estudios, inicio">
-        <svg viewBox="0 0 180 220" aria-hidden="true"><path d="M35 68V35c0-12 10-18 23-18h40c30 0 48 17 48 47s-20 48-51 48H66" fill="none" stroke="currentColor" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/><rect x="18" y="78" width="34" height="106" rx="17" fill="currentColor"/><path d="M68 140l20 35c2 3 7 3 10-1l57-68" fill="none" stroke="var(--acento)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        Presupuesta <span>Estudios</span>
-      </a>
+      <a class="marca" href="/" title="Presupuesta Estudios, inicio"><picture><source srcset="/assets/images/logo-estudios-oscuro-400.webp" media="(prefers-color-scheme: dark)"><img src="/assets/images/logo-estudios-400.webp" alt="Presupuesta Estudios" width="153" height="40" decoding="async"></picture></a>
       <nav class="nav" aria-label="Principal">
         <a href="#casos">Casos</a>
         <a href="#servicios">Qué hacemos</a>
@@ -216,7 +216,7 @@
           <li class="rc">
             <p class="rc-pregunta">«Busco a alguien para arreglar las tuberías de la cocina»</p>
             <p class="rc-puesto"><span>1.ª</span> recomendación de Gemini</p>
-            <p class="rc-cliente"><strong>MO-HOUSE</strong>Fontanería y electricidad · Eibar</p>
+            <p class="rc-cliente"><strong>MO-HOUSE</strong>Fontanería, clima y aerotermia · Eibar</p>
             <p class="rc-enlaces"><a href="https://mo-house.es/" target="_blank" rel="noopener">mo-house.es ↗</a><button type="button" class="rc-captura" data-captura="assets/casos/gemini/gemini-tuberias-cocina-mo-house-720.webp" data-pie="Captura real en Gemini: «Busco a alguien para arreglar las tuberías de la cocina» (28 de octubre de 2026)." hidden>Ver captura</button></p>
           </li>
           <li class="rc">
@@ -330,7 +330,7 @@
         <ul class="webs">
           <li><a href="https://fontaneriaymultigremiosjosu.es/" target="_blank" rel="noopener"><b>Fontanería y Multigremios Josu</b><span>Fontanería, urgencias 24 h y reformas · Ermua</span><em>fontaneriaymultigremiosjosu.es ↗</em></a></li>
           <li><a href="https://reformaelegante.es/" target="_blank" rel="noopener"><b>Reforma Elegant3</b><span>Reforma de baños y fibrocemento · Ermua</span><em>reformaelegante.es ↗</em></a></li>
-          <li><a href="https://mo-house.es/" target="_blank" rel="noopener"><b>MO-HOUSE</b><span>Fontanería, climatización y aerotermia · Gipuzkoa</span><em>mo-house.es ↗</em></a></li>
+          <li><a href="https://mo-house.es/" target="_blank" rel="noopener"><b>MO-HOUSE</b><span>Fontanería, climatización y aerotermia · Eibar y Ermua</span><em>mo-house.es ↗</em></a></li>
         </ul>
       </div>
     </section>
@@ -359,12 +359,16 @@
           </div>
           <p>Sabes lo que pagas desde el principio. Sin comisiones por cliente y sin permanencia.</p>
         </div>
-        <div class="precios">
+        <div class="selector-pago" role="group" aria-label="Forma de pago del mantenimiento">
+          <button type="button" data-pago="anual" aria-pressed="true">Anual <span class="ahorro">Ahorra un 34 %</span></button>
+          <button type="button" data-pago="mensual" aria-pressed="false">Mensual</button>
+        </div>
+        <div class="precios" data-pago="anual">
           <article class="plan">
             <h3>Ficha de Google</h3>
             <p class="para">Si ya tienes web y quieres salir bien en el mapa.</p>
             <p class="cifra">390 € <small>+ IVA</small></p>
-            <p class="mensual">Pago único</p>
+            <p class="mensual">Pago único, sin cuota</p>
             <ul>
               <li>Ficha de Google completa</li>
               <li>Categorías, servicios y zona</li>
@@ -374,26 +378,27 @@
             <a class="boton claro" href="https://wa.me/34652679391?text=Hola%2C%20me%20interesa%20la%20puesta%20a%20punto%20de%20mi%20ficha%20de%20Google" target="_blank" rel="noopener">Pedir la ficha</a>
           </article>
           <article class="plan destacado">
-            <h3>Web, Google e IA</h3>
-            <p class="para">Lo completo. Es lo que tienen los negocios de arriba.</p>
-            <p class="cifra">890 € <small>+ IVA</small></p>
-            <p class="mensual">y 79 €/mes + IVA de mantenimiento</p>
+            <h3>Web e IA</h3>
+            <p class="para">Tu web a medida, lista para Google y para la IA.</p>
+            <p class="cifra">790 € <small>+ IVA</small></p>
+            <p class="mensual"><span class="solo-anual">y 150 €/año + IVA de mantenimiento</span><span class="solo-mensual">y 19 €/mes + IVA de mantenimiento</span></p>
             <ul>
               <li>Web a medida, rápida y para móvil</li>
-              <li>Ficha de Google completa</li>
+              <li>Botón de llamada y WhatsApp</li>
               <li>Datos estructurados y llms.txt</li>
               <li>Dominio, alojamiento y cambios</li>
-              <li>Revisión mensual de ficha y reseñas</li>
             </ul>
-            <a class="boton" href="https://wa.me/34652679391?text=Hola%2C%20me%20interesa%20la%20web%20con%20Google%20e%20IA" target="_blank" rel="noopener">Empezar</a>
+            <p class="extra"><b>Sin Google Maps.</b> ¿Quieres también la ficha de Google puesta a punto? <strong>+97 € + IVA</strong></p>
+            <a class="boton" href="https://wa.me/34652679391?text=Hola%2C%20me%20interesa%20la%20web%20con%20IA" target="_blank" rel="noopener">Empezar</a>
           </article>
           <article class="plan">
             <h3>Varias zonas</h3>
             <p class="para">Para empresas con cuadrillas en varias localidades.</p>
             <p class="cifra">1.490 € <small>+ IVA</small></p>
-            <p class="mensual">y 149 €/mes + IVA</p>
+            <p class="mensual"><span class="solo-anual">y 390 €/año + IVA de mantenimiento</span><span class="solo-mensual">y 49 €/mes + IVA de mantenimiento</span></p>
             <ul>
-              <li>Todo lo del plan completo</li>
+              <li>Todo lo del plan Web e IA</li>
+              <li>Google Maps incluido</li>
               <li>Páginas para hasta 5 localidades</li>
               <li>Varias fichas o sedes</li>
               <li>Informe mensual de llamadas</li>
@@ -401,7 +406,7 @@
             <a class="boton claro" href="https://wa.me/34652679391?text=Hola%2C%20trabajamos%20en%20varias%20zonas%20y%20quiero%20informaci%C3%B3n" target="_blank" rel="noopener">Hablar</a>
           </article>
         </div>
-        <p class="pie-precios">Precios sin IVA (21 %). El mantenimiento se paga mes a mes y se puede dejar cuando quieras; la web y el dominio son tuyos.</p>
+        <p class="pie-precios">Precios sin IVA (21 %). Mantenimiento anual o mensual, como prefieras: al mes lo dejas cuando quieras y al año te sale un 34 % más barato. La web y el dominio son tuyos.</p>
       </div>
     </section>
 
@@ -429,7 +434,7 @@
         <div class="preguntas">
           <details><summary>¿Me garantizáis salir el primero en Google o en la IA?</summary><p>No, y desconfía de quien lo garantice. Lo que hacemos es dejar tu web, tu ficha y tus datos como Google y las IAs necesitan para entender quién eres, qué haces y dónde. Con eso, y con reseñas reales, tus opciones de salir arriba suben mucho.</p></details>
           <details><summary>¿Cuánto tarda?</summary><p>La web suele estar en unas dos semanas desde que nos pasas fotos y datos. La ficha de Google se pone a punto en unos días; los cambios en el mapa y en la IA tardan semanas en notarse.</p></details>
-          <details><summary>¿Hay permanencia?</summary><p>No. El mantenimiento es mensual y lo puedes dejar cuando quieras. La web y el dominio son tuyos.</p></details>
+          <details><summary>¿Hay permanencia?</summary><p>No. Si pagas el mantenimiento al mes, lo dejas cuando quieras. Si lo pagas al año, te sale un 34 % más barato y decides cada año si renuevas. La web y el dominio son tuyos.</p></details>
           <details><summary>¿Los precios llevan IVA?</summary><p>No. Todos los precios son sin IVA (21 %).</p></details>
           <details><summary>¿Trabajáis fuera de Ermua?</summary><p>Sí. Estamos en Ermua y trabajamos con negocios de toda España. Si estás cerca, nos vemos en persona; si no, por WhatsApp y videollamada.</p></details>
           <details><summary>¿Qué necesito para empezar?</summary><p>Fotos de tus trabajos, lo que haces, las zonas en las que trabajas y acceso a tu ficha de Google si ya la tienes. Lo demás lo hacemos nosotros.</p></details>
@@ -453,7 +458,7 @@
     <div class="envoltura">
       <div class="columnas">
         <div>
-          <a class="marca" href="/">Presupuesta <span>Estudios</span></a>
+          <a class="marca" href="/"><picture><source srcset="/assets/images/logo-estudios-oscuro-400.webp" media="(prefers-color-scheme: dark)"><img src="/assets/images/logo-estudios-400.webp" alt="Presupuesta Estudios" width="153" height="40" decoding="async" loading="lazy"></picture></a>
           <p style="margin-top:14px;max-width:24em">Diseño web, Google Maps y visibilidad en la IA para fontaneros, electricistas y empresas de reformas. Ermua (48260, Bizkaia).</p>
         </div>
         <div>
@@ -488,7 +493,7 @@
           <ul>
             <li><a href="https://wa.me/34652679391" target="_blank" rel="noopener">WhatsApp</a></li>
             <li><a href="tel:+34652679391">652 67 93 91</a></li>
-            <li><a href="mailto:hola@estudios.presupuesta.net">hola@estudios.presupuesta.net</a></li>
+            <li><a href="mailto:estudios@presupuesta.net">estudios@presupuesta.net</a></li>
           </ul>
         </div>
       </div>
@@ -510,6 +515,13 @@
       var c = document.querySelector(".cabecera"), b = document.querySelector(".barra-movil");
       function f() { var y = window.scrollY; c.classList.toggle("con-borde", y > 8); b.classList.toggle("visible", y > 600); }
       window.addEventListener("scroll", f, { passive: true }); f();
+      var precios = document.querySelector(".precios"), botones = document.querySelectorAll(".selector-pago button");
+      botones.forEach(function (bt) {
+        bt.addEventListener("click", function () {
+          precios.setAttribute("data-pago", bt.dataset.pago);
+          botones.forEach(function (o) { o.setAttribute("aria-pressed", o === bt ? "true" : "false"); });
+        });
+      });
     })();
   </script>
 </body>
