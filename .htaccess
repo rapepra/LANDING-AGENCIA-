@@ -2,6 +2,11 @@
 ErrorDocument 404 /404.html
 RewriteEngine On
 
+# Esta carpeta está en public_html/landing_agencia: si alguien entra por presupuesta.net/landing_agencia/,
+# se le manda a estudios.presupuesta.net (evita la web duplicada en otro dominio)
+RewriteCond %{HTTP_HOST} ^(www\.)?presupuesta\.net$ [NC]
+RewriteRule ^(.*)$ https://estudios.presupuesta.net/$1 [L,R=301]
+
 # Todo por HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
